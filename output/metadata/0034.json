@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "gray"
+      "value": "auqua-graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "headphones"
     },
     {
       "trait_type": "Mouth",
@@ -45,15 +45,15 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "OG"
+      "value": "lop-eared"
     },
     {
       "trait_type": "Head",
-      "value": "rastacap"
+      "value": "hatflip KBDS"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "joint"
+      "value": "outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "red"
+      "value": "auqua-graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "cracked scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-bandaid"
+      "value": "alien"
     },
     {
       "trait_type": "Right Ear",
-      "value": "hi-tek"
+      "value": "lop-eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "safety pins"
+      "value": "robo"
     },
     {
       "trait_type": "Head",
-      "value": "bandaid"
+      "value": "garden tophat"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "joint"
+      "value": "bearded 2"
     }
   ],
   "compiler": "KBDS SVG Generator"

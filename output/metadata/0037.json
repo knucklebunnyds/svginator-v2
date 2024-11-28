@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "blue"
+      "value": "gray"
     },
     {
       "trait_type": "Jaw",
@@ -33,19 +33,19 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators KBDS"
+      "value": "monacle"
     },
     {
       "trait_type": "Right Ear",
-      "value": "slasher"
+      "value": "stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "robo"
+      "value": "stitches"
     },
     {
       "trait_type": "Head",

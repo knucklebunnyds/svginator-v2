@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
@@ -37,11 +37,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "lennon"
+      "value": "viper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "cracked"
+      "value": "metal plate"
     },
     {
       "trait_type": "Left Ear",
@@ -49,11 +49,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "alien"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "bearded 2"
+      "value": "biker"
     }
   ],
   "compiler": "KBDS SVG Generator"

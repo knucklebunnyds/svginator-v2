@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "brown"
+      "value": "red"
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
@@ -37,23 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "lennon"
+      "value": "OG"
     },
     {
       "trait_type": "Right Ear",
-      "value": "KBDS tattoo"
+      "value": "lop-eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "battle scars"
+      "value": "KBDS tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "rastacap"
+      "value": "rockerdo"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "joint"
+      "value": "bearded 2"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,15 +25,15 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "brown"
+      "value": "green"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "OG"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
@@ -41,19 +41,19 @@
     },
     {
       "trait_type": "Right Ear",
-      "value": "ringer"
+      "value": "hi-tek"
     },
     {
       "trait_type": "Left Ear",
-      "value": "KBDS tattoo"
+      "value": "metal plate"
     },
     {
       "trait_type": "Head",
-      "value": "horny"
+      "value": "rocker-hat"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "biker-beard"
+      "value": "joint"
     }
   ],
   "compiler": "KBDS SVG Generator"

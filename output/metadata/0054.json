@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "headphones"
     },
     {
       "trait_type": "Mouth",
@@ -37,15 +37,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators KBDS"
+      "value": "half-robo-righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "safety pins"
+      "value": "notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "cracked"
     },
     {
       "trait_type": "Head",

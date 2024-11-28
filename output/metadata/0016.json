@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "auqua-graffiti"
+      "value": "yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "doom-raider-mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "navigators"
+      "value": "half-robo-lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "OG"
+      "value": "KBDS tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "notched"
+      "value": "scruffy"
     },
     {
       "trait_type": "Head",
-      "value": "ram-horns"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "joint"
+      "value": "darkhawk"
     }
   ],
   "compiler": "KBDS SVG Generator"

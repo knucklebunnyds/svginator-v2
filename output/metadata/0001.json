@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "KBDS"
+      "value": "red"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "OG"
     },
     {
       "trait_type": "Mouth",
@@ -37,23 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators"
+      "value": "OG-glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "lop-eared"
+      "value": "robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "battle scars"
+      "value": "metal plate"
     },
     {
       "trait_type": "Head",
-      "value": "rocker-hat"
+      "value": "alien"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "biker-beard"
+      "value": "gasmask"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,19 +25,19 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "KBDS"
+      "value": "green"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "half-robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "half-robo-lefty"
+      "value": "alien"
     },
     {
       "trait_type": "Right Ear",
@@ -45,11 +45,15 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "KBDS tattoo"
+      "value": "ringer"
     },
     {
       "trait_type": "Head",
-      "value": "bandaid"
+      "value": "biker"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "gasmask"
     }
   ],
   "compiler": "KBDS SVG Generator"

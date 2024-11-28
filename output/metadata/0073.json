@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "gray"
+      "value": "blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "headphones"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "goth"
+      "value": "navigators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "OG"
+      "value": "battle scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "hi-tek"
     },
     {
       "trait_type": "Head",
-      "value": "bowler"
+      "value": "darkhawk"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "joint"
     }
   ],
   "compiler": "KBDS SVG Generator"

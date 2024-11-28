@@ -25,31 +25,31 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "yellow"
+      "value": "auqua-graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "doom-raider-mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "half-robo-lefty"
+      "value": "Snake-Plissken"
     },
     {
       "trait_type": "Right Ear",
-      "value": "robo"
+      "value": "metal plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "robo"
     },
     {
       "trait_type": "Head",
-      "value": "tophat"
+      "value": "horny"
     }
   ],
   "compiler": "KBDS SVG Generator"

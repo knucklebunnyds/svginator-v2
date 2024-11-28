@@ -25,23 +25,23 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "red"
+      "value": "blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "navigators"
+      "value": "wayfairer"
     },
     {
       "trait_type": "Right Ear",
-      "value": "KBDS tattoo"
+      "value": "metal plate"
     },
     {
       "trait_type": "Left Ear",
@@ -49,7 +49,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "bandaid"
+      "value": "dreads"
     }
   ],
   "compiler": "KBDS SVG Generator"

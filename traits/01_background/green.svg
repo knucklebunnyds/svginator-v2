@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Background" viewBox="0 0 2048 2048"><path id="color-green" fill="#32992c" d="M2048 0v2048H0V0z" data-original-style="transition:fill .3s ease" style="transition:fill .3s ease"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="background" viewBox="0 0 2048 2048" class="background"><path id="color-green" fill="#32992c" d="M2048 0v2048H0V0z" data-original-style="transition:fill .3s ease" style="fill: #32992c" class="color"/></svg>

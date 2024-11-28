@@ -29,27 +29,27 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "steampunk-goggles"
+      "value": "wayfairer"
     },
     {
       "trait_type": "Right Ear",
-      "value": "lop-eared"
+      "value": "scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "lop-eared"
+      "value": "robo"
     },
     {
       "trait_type": "Head",
-      "value": "hatflip"
+      "value": "spiked"
     }
   ],
   "compiler": "KBDS SVG Generator"

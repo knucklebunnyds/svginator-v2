@@ -29,27 +29,27 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "half-robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "cracked"
+      "value": "OG-bandaid-glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "safety pins"
+      "value": "stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "KBDS tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "sideways-hat"
+      "value": "steampunk-goggles"
     }
   ],
   "compiler": "KBDS SVG Generator"

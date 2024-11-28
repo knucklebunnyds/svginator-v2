@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "OG-cracked"
     },
     {
       "trait_type": "Mouth",
@@ -37,23 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "monacle"
+      "value": "beaker"
     },
     {
       "trait_type": "Right Ear",
-      "value": "battle scars"
+      "value": "stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "lop-eared"
     },
     {
       "trait_type": "Head",
-      "value": "horned"
+      "value": "darkhawk"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "gasmask"
+      "value": "biker-beard"
     }
   ],
   "compiler": "KBDS SVG Generator"

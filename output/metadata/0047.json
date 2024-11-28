@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "blue"
+      "value": "gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "scrappy"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "monacle"
-    },
-    {
-      "trait_type": "Right Ear",
-      "value": "safety pins"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "robo"
     },
     {
+      "trait_type": "Mouth",
+      "value": "cracked scrappy"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "robo"
+    },
+    {
+      "trait_type": "Right Ear",
+      "value": "hi-tek"
+    },
+    {
+      "trait_type": "Left Ear",
+      "value": "notched"
+    },
+    {
       "trait_type": "Head",
-      "value": "hawker"
+      "value": "caesar"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "hombre"
+      "value": "joint"
     }
   ],
   "compiler": "KBDS SVG Generator"

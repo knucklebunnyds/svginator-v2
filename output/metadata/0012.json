@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "red"
+      "value": "KBDS"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "half-robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "lennon"
+      "value": "OG-bandaid"
     },
     {
       "trait_type": "Right Ear",
-      "value": "OG"
+      "value": "slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "notched"
+      "value": "lop-eared"
     },
     {
       "trait_type": "Head",
-      "value": "horned"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "bearded 2"
+      "value": "tophat-knucks"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,31 +25,31 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "blue"
+      "value": "KBDS"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "doom-raider-mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "cracked scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "trooper"
+      "value": "cracked-glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "notched"
+      "value": "OG"
     },
     {
       "trait_type": "Left Ear",
-      "value": "lop-eared"
+      "value": "battle scars"
     },
     {
       "trait_type": "Head",
-      "value": "shaghawk"
+      "value": "speed-racer"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "auqua-graffiti"
+      "value": "green"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "OG-cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "monacle"
-    },
-    {
-      "trait_type": "Right Ear",
-      "value": "scruffy"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "OG"
     },
     {
+      "trait_type": "Eyes",
+      "value": "trooper"
+    },
+    {
+      "trait_type": "Right Ear",
+      "value": "lop-eared"
+    },
+    {
+      "trait_type": "Left Ear",
+      "value": "metal plate"
+    },
+    {
       "trait_type": "Head",
-      "value": "spiked"
+      "value": "garden tophat"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "bearded 2"
+      "value": "outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

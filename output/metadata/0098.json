@@ -29,27 +29,31 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "patch-square"
+      "value": "steampunk-goggles"
     },
     {
       "trait_type": "Right Ear",
-      "value": "lop-eared"
+      "value": "metal plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "KBDS tattoo"
+      "value": "metal plate"
     },
     {
       "trait_type": "Head",
-      "value": "sideways-hat"
+      "value": "slicked"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "biker-beard"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "brown"
+      "value": "green"
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "OG-cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "OG"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG"
+      "value": "OG-glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "cracked"
+      "value": "scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "OG"
+      "value": "hi-tek"
     },
     {
       "trait_type": "Head",
-      "value": "sideways-hat"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "gasmask"
+      "value": "slicked"
     }
   ],
   "compiler": "KBDS SVG Generator"

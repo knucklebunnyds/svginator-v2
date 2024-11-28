@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <svg xmlns:xlink="http://www.w3.org/1999/xlink" id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><style>
-    .outline { fill: #000000; }
-    .shading { fill: #aaaaaa; opacity: 0.5; }
-    .fill { fill: #ffffff; }
-    path { transition: fill 0.3s ease; }
-    /* Preserve original fills unless specifically overridden */
-    path:not(.outline):not(.fill):not(.shading) { fill: inherit; }
-  </style>
-  <path id="bg" d="M2048,4.6v2038.8c0,3.8-.8,4.6-4.6,4.6H4.6c-3.8,0-4.6-.8-4.6-4.6C.1,1362.3,0,681.2,0,0h2043.4c3.8,0,4.6.8,4.6,4.6Z" style="fill: #3a3b3f;"/>
-  </svg>
+
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" class="background">
+  <path id="color-gray" d="M2048,4.6v2038.8c0,3.8-.8,4.6-4.6,4.6H4.6c-3.8,0-4.6-.8-4.6-4.6C.1,1362.3,0,681.2,0,0h2043.4c3.8,0,4.6.8,4.6,4.6Z" style="fill: #3a3b3f" class="color" fill="#3a3b3f"/>
+</svg>

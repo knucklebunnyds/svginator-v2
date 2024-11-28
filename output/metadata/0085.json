@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "brown"
+      "value": "yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "OG-cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "OG"
     },
     {
       "trait_type": "Eyes",
-      "value": "robo"
+      "value": "starchild"
     },
     {
       "trait_type": "Right Ear",
-      "value": "stitches"
+      "value": "battle scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "safety pins"
+      "value": "robo"
     },
     {
       "trait_type": "Head",
-      "value": "jah-mon"
+      "value": "dreads"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

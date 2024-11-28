@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "KBDS"
+      "value": "blue"
     },
     {
       "trait_type": "Jaw",
@@ -37,11 +37,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "specs"
+      "value": "navigators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "KBDS tattoo"
+      "value": "safety pins"
     },
     {
       "trait_type": "Left Ear",
@@ -49,7 +49,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "dreads"
+      "value": "bowler"
     }
   ],
   "compiler": "KBDS SVG Generator"

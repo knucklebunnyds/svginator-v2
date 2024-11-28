@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "KBDS"
+      "value": "blue"
     },
     {
       "trait_type": "Jaw",
@@ -33,23 +33,23 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "OG"
     },
     {
       "trait_type": "Eyes",
-      "value": "half-robo-lefty"
+      "value": "lennon"
     },
     {
       "trait_type": "Right Ear",
-      "value": "safety pins"
+      "value": "stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "battle scars"
+      "value": "KBDS tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "shaghawk"
+      "value": "darkhawk"
     }
   ],
   "compiler": "KBDS SVG Generator"

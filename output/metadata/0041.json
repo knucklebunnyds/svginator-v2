@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "gray"
+      "value": "KBDS"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "half-robo"
     },
     {
       "trait_type": "Mouth",
@@ -37,23 +37,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "steampunk-goggles"
+      "value": "aviators KBDS"
     },
     {
       "trait_type": "Right Ear",
-      "value": "cracked"
+      "value": "KBDS tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "battle scars"
+      "value": "safety pins"
     },
     {
       "trait_type": "Head",
-      "value": "biker"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "gasmask"
+      "value": "steampunk-hatter"
     }
   ],
   "compiler": "KBDS SVG Generator"

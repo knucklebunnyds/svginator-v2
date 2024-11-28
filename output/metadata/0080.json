@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "brown"
+      "value": "KBDS"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "doom-raider-mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-bandaid"
+      "value": "trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "OG"
+      "value": "robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "cracked"
+      "value": "robo"
     },
     {
       "trait_type": "Head",
-      "value": "lemmy"
+      "value": "tophat"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

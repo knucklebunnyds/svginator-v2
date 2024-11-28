@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "red"
+      "value": "yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "trooper"
+      "value": "navigators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "ringer"
+      "value": "hi-tek"
     },
     {
       "trait_type": "Left Ear",
-      "value": "stitches"
+      "value": "ringer"
     },
     {
       "trait_type": "Head",
-      "value": "ace-helmet"
+      "value": "alien"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

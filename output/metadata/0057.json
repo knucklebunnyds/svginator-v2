@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "KBDS"
+      "value": "gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "half-robo-lefty"
+      "value": "OG-bandaid"
     },
     {
       "trait_type": "Right Ear",
-      "value": "notched"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "KBDS tattoo"
     },
     {
+      "trait_type": "Left Ear",
+      "value": "cracked"
+    },
+    {
       "trait_type": "Head",
-      "value": "rastacap"
+      "value": "steampunk-hatter"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

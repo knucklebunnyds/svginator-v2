@@ -25,15 +25,15 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "KBDS"
+      "value": "auqua-graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "OG"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "scrappy"
     },
     {
       "trait_type": "Eyes",
@@ -41,15 +41,19 @@
     },
     {
       "trait_type": "Right Ear",
-      "value": "battle scars"
+      "value": "scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "notched"
+      "value": "KBDS tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "sideways-hat"
+      "value": "hatflip KBDS"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "gasmask"
     }
   ],
   "compiler": "KBDS SVG Generator"

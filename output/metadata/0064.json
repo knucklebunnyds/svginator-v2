@@ -25,19 +25,19 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "gray"
+      "value": "red"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "OG"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "cracked scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators"
+      "value": "monacle"
     },
     {
       "trait_type": "Right Ear",
@@ -45,11 +45,11 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "stitches"
     },
     {
       "trait_type": "Head",
-      "value": "gi-helmet"
+      "value": "jah-mon"
     }
   ],
   "compiler": "KBDS SVG Generator"

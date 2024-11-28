@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "blue"
+      "value": "gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "OG-cracked"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "beaker"
+      "value": "goth"
     },
     {
       "trait_type": "Right Ear",
-      "value": "robo"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "lop-eared"
     },
     {
+      "trait_type": "Left Ear",
+      "value": "safety pins"
+    },
+    {
       "trait_type": "Head",
-      "value": "speed-racer"
+      "value": "rockerdo"
     }
   ],
   "compiler": "KBDS SVG Generator"

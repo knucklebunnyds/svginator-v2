@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators"
+      "value": "robo"
     },
     {
       "trait_type": "Right Ear",
-      "value": "notched"
+      "value": "KBDS tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "safety pins"
     },
     {
       "trait_type": "Head",
-      "value": "alien"
+      "value": "beanie"
     }
   ],
   "compiler": "KBDS SVG Generator"

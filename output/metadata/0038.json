@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "brown"
+      "value": "auqua-graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "cracked-glare"
+      "value": "cracked"
     },
     {
       "trait_type": "Right Ear",
-      "value": "notched"
+      "value": "stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "ringer"
+      "value": "safety pins"
     },
     {
       "trait_type": "Head",
-      "value": "palerider"
+      "value": "alien"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "bearded 2"
     }
   ],
   "compiler": "KBDS SVG Generator"

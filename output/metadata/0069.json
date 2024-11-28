@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "brown"
+      "value": "yellow"
     },
     {
       "trait_type": "Jaw",
@@ -33,11 +33,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Snake-Plissken"
+      "value": "wayfairer"
     },
     {
       "trait_type": "Right Ear",
@@ -45,11 +45,11 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "lop-eared"
+      "value": "notched"
     },
     {
       "trait_type": "Head",
-      "value": "tall-hawk"
+      "value": "alien"
     }
   ],
   "compiler": "KBDS SVG Generator"

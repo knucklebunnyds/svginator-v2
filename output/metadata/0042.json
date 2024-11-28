@@ -29,19 +29,19 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "OG"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "OG"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-glare"
+      "value": "half-robo-lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "battle scars"
+      "value": "stitches"
     },
     {
       "trait_type": "Left Ear",
@@ -49,7 +49,11 @@
     },
     {
       "trait_type": "Head",
-      "value": "beanie"
+      "value": "hawker"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

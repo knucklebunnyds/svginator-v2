@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "red"
+      "value": "brown"
     },
     {
       "trait_type": "Jaw",
@@ -37,19 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "cracked-glare"
+      "value": "alien"
     },
     {
       "trait_type": "Right Ear",
-      "value": "hi-tek"
+      "value": "cracked"
     },
     {
       "trait_type": "Left Ear",
-      "value": "robo"
+      "value": "ringer"
     },
     {
       "trait_type": "Head",
-      "value": "hatflip"
+      "value": "biker"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

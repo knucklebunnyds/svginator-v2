@@ -29,27 +29,31 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "jaws"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "aviators KBDS"
-    },
-    {
-      "trait_type": "Right Ear",
-      "value": "battle scars"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "robo"
     },
     {
+      "trait_type": "Mouth",
+      "value": "OG"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "specs"
+    },
+    {
+      "trait_type": "Right Ear",
+      "value": "stitches"
+    },
+    {
+      "trait_type": "Left Ear",
+      "value": "scruffy"
+    },
+    {
       "trait_type": "Head",
-      "value": "banger"
+      "value": "hatflip"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -12,9 +12,11 @@
     "add-semantic-classes": "node scripts/add-semantic-classes.js"
   },
   "dependencies": {
+    "@xmldom/xmldom": "^0.9.5",
     "cheerio": "^1.0.0",
     "fs-extra": "^11.2.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"

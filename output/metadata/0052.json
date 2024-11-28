@@ -33,23 +33,23 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "cracked scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "viper"
+      "value": "half-robo-lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "cracked"
+      "value": "notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "safety pins"
+      "value": "robo"
     },
     {
       "trait_type": "Head",
-      "value": "ace-helmet"
+      "value": "ram-horns"
     }
   ],
   "compiler": "KBDS SVG Generator"

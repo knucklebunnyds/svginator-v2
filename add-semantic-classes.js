@@ -1,152 +1,104 @@
 const fs = require('fs');
 const path = require('path');
-const cheerio = require('cheerio');
+const { DOMParser, XMLSerializer } = require('xmldom');
 
-// Default styles for semantic classes
-const DEFAULT_STYLES = {
-  fill: { fill: '#FFFFFF' },
-  outline: { fill: '#000000' },
-  shading: { fill: '#AAAAAA', style: 'opacity: 0.5' }
-};
+const BACKGROUND_CATEGORY = '01_background';
 
-function processFile(filePath) {
-  console.log(`Processing file: ${filePath}`);
+function processBackgroundSVG(svgContent) {
+  // Remove any existing XML declarations
+  svgContent = svgContent.replace(/<\?xml[^>]*\?>/g, '');
   
-  // Read the SVG file
-  const svgContent = fs.readFileSync(filePath, 'utf8');
-  const $ = cheerio.load(svgContent, { xmlMode: true });
+  const parser = new DOMParser();
+  const serializer = new XMLSerializer();
+  const doc = parser.parseFromString(svgContent, 'text/xml');
 
-  // Get the root SVG element
-  const svgElement = $('svg');
+  // Remove all style blocks
+  const styleElements = doc.getElementsByTagName('style');
+  for (let i = styleElements.length - 1; i >= 0; i--) {
+    styleElements[i].parentNode.removeChild(styleElements[i]);
+  }
 
-  // Extract colors from style blocks if present
-  const styleBlocks = $('style');
-  const colorMap = new Map();
-  styleBlocks.each((_, style) => {
-    const styleText = $(style).text();
-    const colorRules = styleText.match(/\.[^{]+{[^}]+}/g) || [];
-    colorRules.forEach(rule => {
-      const className = rule.match(/\.([^{]+)/)?.[1]?.trim();
-      const color = rule.match(/fill:\s*([^;]+)/)?.[1]?.trim();
-      if (className && color) {
-        colorMap.set(className, color);
-      }
-    });
-  });
+  // Process the root SVG element
+  const svgElement = doc.documentElement;
+  
+  // Ensure consistent root attributes
+  svgElement.setAttribute('id', 'background');
+  svgElement.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+  svgElement.setAttribute('viewBox', '0 0 2048 2048');
+  svgElement.setAttribute('class', 'background');
 
-  // Process each element
-  $('*').each((_, element) => {
-    const $el = $(element);
+  // Process all paths and groups
+  const paths = Array.from(doc.getElementsByTagName('path'));
+  const groups = Array.from(doc.getElementsByTagName('g'));
+  const elements = [...paths, ...groups];
+  
+  for (const element of elements) {
+    const elementId = element.getAttribute('id') || '';
+    let fill = element.getAttribute('fill') || '';
+    const styleAttr = element.getAttribute('style') || '';
     
-    // Keep essential attributes and fill/stroke colors
-    const attrsToKeep = ['id', 'class', 'd', 'viewBox', 'xmlns', 'fill', 'stroke', 'style'];
-    Object.keys(element.attribs || {}).forEach(attr => {
-      if (!attrsToKeep.includes(attr)) {
-        $el.removeAttr(attr);
-      }
-    });
-
-    // Process style attribute to keep only color-related properties
-    const style = $el.attr('style');
-    if (style) {
-      const colorProps = style.split(';')
-        .filter(prop => {
-          const propName = prop.split(':')[0]?.trim().toLowerCase();
-          return propName && (
-            propName.includes('fill') || 
-            propName.includes('stroke') || 
-            propName.includes('color') ||
-            propName.includes('opacity')
-          );
-        })
-        .join(';');
-      
-      if (colorProps) {
-        $el.attr('style', colorProps);
-      } else {
-        $el.removeAttr('style');
-      }
+    // Extract fill from style if present
+    const styleFill = styleAttr.match(/fill:\s*([^;]+)/)?.[1];
+    if (styleFill) {
+      fill = styleFill;
     }
 
-    // Process classes - preserve semantic classes
-    if ($el.attr('class')) {
-      const classes = $el.attr('class').split(' ');
-      const validClasses = ['fill', 'shading', 'outline'];
-      const filteredClasses = classes.filter(c => validClasses.includes(c));
-      
-      if (filteredClasses.length > 0) {
-        $el.attr('class', filteredClasses.join(' '));
-
-        // Apply default styles based on semantic class if no color is specified
-        filteredClasses.forEach(className => {
-          const defaultStyle = DEFAULT_STYLES[className];
-          if (defaultStyle) {
-            // Only apply default fill if no fill color is specified
-            if (defaultStyle.fill && !$el.attr('fill') && !style?.includes('fill:')) {
-              $el.attr('fill', defaultStyle.fill);
-            }
-            // Apply opacity for shading if not already present
-            if (defaultStyle.style && !style?.includes('opacity:')) {
-              $el.attr('style', defaultStyle.style);
-            }
-          }
-        });
-      }
+    // Determine class based on ID and fill type
+    if (elementId.startsWith('color-')) {
+      element.setAttribute('class', 'color');
+    } else if (elementId.startsWith('bg-')) {
+      element.setAttribute('class', 'bg');
+    } else if (fill && fill.startsWith('url(#')) {
+      element.setAttribute('class', 'gradient');
     }
-
-    // Process IDs - keep semantic IDs that follow the pattern
-    const id = $el.attr('id');
-    if (id) {
-      // Keep semantic IDs that follow pattern [type]-[part]-[subpart]
-      if (id.includes('-')) {
-        $el.attr('id', id);
-
-        // Apply default styles based on ID prefix if no class or color is specified
-        const prefix = id.split('-')[0];
-        if (DEFAULT_STYLES[prefix] && !$el.attr('class')) {
-          const defaultStyle = DEFAULT_STYLES[prefix];
-          if (defaultStyle.fill && !$el.attr('fill')) {
-            $el.attr('fill', defaultStyle.fill);
-          }
-          if (defaultStyle.style && !$el.attr('style')) {
-            $el.attr('style', defaultStyle.style);
-          }
-          // Add corresponding class based on prefix
-          $el.attr('class', prefix);
-        }
-      }
+    
+    // Maintain original fill
+    if (fill) {
+      element.setAttribute('style', `fill: ${fill}`);
+      element.setAttribute('fill', fill);
     }
+  }
 
-    // Preserve original colors from style blocks
-    const elementClasses = $el.attr('class')?.split(' ') || [];
-    elementClasses.forEach(className => {
-      const color = colorMap.get(className);
-      if (color && !$el.attr('fill')) {
-        $el.attr('fill', color);
-      }
-    });
-  });
-
-  // Remove style blocks after processing
-  styleBlocks.remove();
-
-  // Save the processed SVG
-  const processedSvg = $.html();
-  fs.writeFileSync(filePath, processedSvg);
-  console.log(`Processed and saved: ${filePath}`);
+  // Add single XML declaration at the start
+  return '<?xml version="1.0" encoding="UTF-8"?>\n' + serializer.serializeToString(doc);
 }
 
-// Test function for single file
-function testFile(filePath) {
+function processTraitSVG(svgContent) {
+  // ... existing trait processing code ...
+  return svgContent;
+}
+
+function processSVGFile(filePath) {
+  console.log(`Processing ${filePath}`);
+  const svgContent = fs.readFileSync(filePath, 'utf8');
+  
+  // Determine if this is a background or trait SVG
+  const isBackground = filePath.includes(BACKGROUND_CATEGORY);
+  
   try {
-    processFile(filePath);
-    console.log('Successfully processed file');
+    const processedContent = isBackground ? 
+      processBackgroundSVG(svgContent) : 
+      processTraitSVG(svgContent);
+      
+    fs.writeFileSync(filePath, processedContent);
+    console.log(`Successfully processed ${filePath}`);
+    return true;
   } catch (error) {
-    console.error('Error processing file:', error);
+    console.error(`Error processing ${filePath}:`, error);
+    return false;
   }
 }
 
+// Test function for processing a single file
+function testProcessFile(filePath) {
+  if (!fs.existsSync(filePath)) {
+    console.error('File not found:', filePath);
+    return false;
+  }
+  return processSVGFile(filePath);
+}
+
 module.exports = {
-  processFile,
-  testFile
+  processSVGFile,
+  testProcessFile
 }; 

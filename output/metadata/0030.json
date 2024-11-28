@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "KBDS"
+      "value": "auqua-graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Snake-Plissken"
+      "value": "alien"
     },
     {
       "trait_type": "Right Ear",
-      "value": "hi-tek"
+      "value": "safety pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "ringer"
+      "value": "stitches"
     },
     {
       "trait_type": "Head",
-      "value": "hatflip KBDS"
+      "value": "ram-horns"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "joint"
     }
   ],
   "compiler": "KBDS SVG Generator"

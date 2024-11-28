@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "gray"
+      "value": "blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "OG-cracked"
     },
     {
       "trait_type": "Mouth",
@@ -37,11 +37,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-glare"
+      "value": "monacle"
     },
     {
       "trait_type": "Right Ear",
-      "value": "notched"
+      "value": "battle scars"
     },
     {
       "trait_type": "Left Ear",
@@ -49,11 +49,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "rastacap"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "bearded 2"
+      "value": "small-hawk"
     }
   ],
   "compiler": "KBDS SVG Generator"

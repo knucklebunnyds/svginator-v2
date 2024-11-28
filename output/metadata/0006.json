@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "KBDS"
+      "value": "red"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "doom-raider-mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "navigators"
-    },
-    {
-      "trait_type": "Right Ear",
       "value": "OG"
     },
     {
+      "trait_type": "Eyes",
+      "value": "steampunk-goggles"
+    },
+    {
+      "trait_type": "Right Ear",
+      "value": "metal plate"
+    },
+    {
       "trait_type": "Left Ear",
-      "value": "scruffy"
+      "value": "robo"
     },
     {
       "trait_type": "Head",
-      "value": "jah-mon"
+      "value": "rockerdo"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "biker-beard"
     }
   ],
   "compiler": "KBDS SVG Generator"

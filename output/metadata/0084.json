@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "blue"
+      "value": "green"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "doom-raider-mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "wayfairer"
+      "value": "goth"
     },
     {
       "trait_type": "Right Ear",
-      "value": "cracked"
+      "value": "ringer"
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "battle scars"
     },
     {
       "trait_type": "Head",
-      "value": "dreads"
+      "value": "sideways-hat"
     }
   ],
   "compiler": "KBDS SVG Generator"

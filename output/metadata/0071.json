@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "brown"
+      "value": "KBDS"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,23 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "beaker"
+      "value": "aviators KBDS"
     },
     {
       "trait_type": "Right Ear",
-      "value": "metal plate"
+      "value": "scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "cracked"
+      "value": "stitches"
     },
     {
       "trait_type": "Head",
-      "value": "slicked"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "bearded 2"
+      "value": "steampunk-goggles"
     }
   ],
   "compiler": "KBDS SVG Generator"

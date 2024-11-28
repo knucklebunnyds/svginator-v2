@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "green"
+      "value": "gray"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "half-robo-lefty"
+      "value": "half-robo-righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "hi-tek"
+      "value": "safety pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "hi-tek"
+      "value": "battle scars"
     },
     {
       "trait_type": "Head",
-      "value": "sideways-hat"
+      "value": "slicked-black"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "bearded 2"
     }
   ],
   "compiler": "KBDS SVG Generator"

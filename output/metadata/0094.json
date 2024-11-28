@@ -25,31 +25,31 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "green"
+      "value": "yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "OG-cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "OG"
     },
     {
       "trait_type": "Eyes",
-      "value": "cracked"
+      "value": "half-robo-lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "scruffy"
+      "value": "notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "lop-eared"
     },
     {
       "trait_type": "Head",
-      "value": "small-hawk"
+      "value": "horny"
     }
   ],
   "compiler": "KBDS SVG Generator"

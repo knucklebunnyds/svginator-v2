@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "yellow"
+      "value": "gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "starchild"
+      "value": "wayfairer"
     },
     {
       "trait_type": "Right Ear",
-      "value": "metal plate"
+      "value": "OG"
     },
     {
       "trait_type": "Left Ear",
-      "value": "lop-eared"
+      "value": "slasher"
     },
     {
       "trait_type": "Head",
-      "value": "palerider"
+      "value": "jah-mon"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "gasmask"
+      "value": "nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -29,11 +29,11 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "OG"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "cracked scrappy"
     },
     {
       "trait_type": "Eyes",
@@ -41,19 +41,15 @@
     },
     {
       "trait_type": "Right Ear",
-      "value": "KBDS tattoo"
+      "value": "hi-tek"
     },
     {
       "trait_type": "Left Ear",
-      "value": "stitches"
+      "value": "lop-eared"
     },
     {
       "trait_type": "Head",
-      "value": "bandages"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "biker-beard"
+      "value": "hatflip KBDS"
     }
   ],
   "compiler": "KBDS SVG Generator"

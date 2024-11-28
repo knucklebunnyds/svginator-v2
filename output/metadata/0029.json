@@ -29,27 +29,31 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "OG"
     },
     {
       "trait_type": "Eyes",
-      "value": "steampunk-goggles"
+      "value": "Snake-Plissken"
     },
     {
       "trait_type": "Right Ear",
-      "value": "hi-tek"
+      "value": "lop-eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "scruffy"
     },
     {
       "trait_type": "Head",
-      "value": "tall-hawk"
+      "value": "biker"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "biker-beard"
     }
   ],
   "compiler": "KBDS SVG Generator"

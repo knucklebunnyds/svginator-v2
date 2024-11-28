@@ -29,27 +29,31 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "specs"
+      "value": "OG-glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "lop-eared"
+      "value": "battle scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "ringer"
+      "value": "metal plate"
     },
     {
       "trait_type": "Head",
-      "value": "horned"
+      "value": "tall-hawk"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "brown"
+      "value": "red"
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "OG"
     },
     {
       "trait_type": "Eyes",
-      "value": "specs"
+      "value": "Snake-Plissken"
     },
     {
       "trait_type": "Right Ear",
-      "value": "hi-tek"
+      "value": "OG"
     },
     {
       "trait_type": "Left Ear",
-      "value": "battle scars"
+      "value": "hi-tek"
     },
     {
       "trait_type": "Head",
-      "value": "rockerdo"
+      "value": "lemmy"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "hombre"
+      "value": "outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

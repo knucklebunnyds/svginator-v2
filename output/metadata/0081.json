@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "blue"
+      "value": "brown"
     },
     {
       "trait_type": "Jaw",
@@ -33,23 +33,23 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "OG"
     },
     {
       "trait_type": "Eyes",
-      "value": "goth"
+      "value": "OG-glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "stitches"
+      "value": "scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "notched"
+      "value": "metal plate"
     },
     {
       "trait_type": "Head",
-      "value": "beanie"
+      "value": "ram-horns"
     }
   ],
   "compiler": "KBDS SVG Generator"

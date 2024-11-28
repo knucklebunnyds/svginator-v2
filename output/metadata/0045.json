@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "green"
+      "value": "auqua-graffiti"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "cracked scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "specs"
+      "value": "aviators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "cracked"
+      "value": "robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "battle scars"
     },
     {
       "trait_type": "Head",
-      "value": "bandages"
+      "value": "lemmy"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "gasmask"
+      "value": "nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

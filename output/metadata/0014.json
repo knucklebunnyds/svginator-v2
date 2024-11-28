@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "blue"
+      "value": "gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "robo"
     },
     {
       "trait_type": "Mouth",
@@ -37,7 +37,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "steampunk-goggles"
+      "value": "starchild"
     },
     {
       "trait_type": "Right Ear",
@@ -45,15 +45,11 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "scruffy"
+      "value": "notched"
     },
     {
       "trait_type": "Head",
-      "value": "tophat"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "biker-beard"
+      "value": "small-hawk"
     }
   ],
   "compiler": "KBDS SVG Generator"

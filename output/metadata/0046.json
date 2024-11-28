@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "background",
-      "value": "KBDS"
+      "value": "red"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "OG"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "steampunk-goggles"
+      "value": "cracked-glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "metal plate"
+      "value": "ringer"
     },
     {
       "trait_type": "Left Ear",
-      "value": "stitches"
+      "value": "metal plate"
     },
     {
       "trait_type": "Head",
-      "value": "banger"
+      "value": "hatflip"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"
