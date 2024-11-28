@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2048 2048">
+  <defs>
+    <radialGradient id="radial-gradient" cx="1024" cy="-180.01" fx="1024" fy="-180.01" r="1024" gradientTransform="translate(0 1204.01)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#505151"/>
+      <stop offset="1" stop-color="#202733"/>
+    </radialGradient>
+  <style>
+.outline{fill:#000}
+.fill{fill:#fff}
+.shading{fill:#aaa;opacity:.5}
+path{transition:fill .3s ease}
+</style></defs>
+  <path id="gradient-jean" d="M2048,4.6v2038.8c0,3.8-.8,4.6-4.6,4.6H4.6c-3.8,0-4.6-.8-4.6-4.6C.1,1362.3,0,681.2,0,0h2043.4c3.8,0,4.6.8,4.6,4.6Z" style="fill: url(#radial-gradient);"/>
+</svg>

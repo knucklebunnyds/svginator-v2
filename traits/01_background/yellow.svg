@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <svg id="Background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><style>
+    .outline { fill: #000000; }
+    .shading { fill: #aaaaaa; opacity: 0.5; }
+    .fill { fill: #ffffff; }
+    path { transition: fill 0.3s ease; }
+    /* Preserve original fills unless specifically overridden */
+    path:not(.outline):not(.fill):not(.shading) { fill: inherit; }
+  </style>
+  <path class="" id="bg" d="M2048,0v2048H0V0h2048Z" style="fill: #ddb305;"/>
+  </svg>

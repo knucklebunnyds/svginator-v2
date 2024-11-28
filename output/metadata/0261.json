@@ -1,0 +1,56 @@
+{
+  "name": "KBDS Doge Knuckleheads #0261",
+  "image": "0261.svg",
+  "description": "Straight out tha Burrows - A unique collection of Doge Knuckleheads, each reppin' its own quirky attitude and style.",
+  "external_url": "https://knucklebunnydeathsquad.com",
+  "seller_fee_basis_points": 800,
+  "collection": {
+    "name": "Knuckle Bunny Death Squad SVG",
+    "family": null
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "0261.svg",
+        "type": "image/svg+xml"
+      }
+    ],
+    "creators": [
+      {
+        "share": 100,
+        "address": "DTxJrTzMVQqpYAtEEdYhSCJufCQEZk2ZUd"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "green"
+    },
+    {
+      "trait_type": "Jaw",
+      "value": "robo"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "OG"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "alien"
+    },
+    {
+      "trait_type": "Right Ear",
+      "value": "KBDS tattoo"
+    },
+    {
+      "trait_type": "Left Ear",
+      "value": "OG"
+    },
+    {
+      "trait_type": "Head",
+      "value": "horny"
+    }
+  ],
+  "compiler": "KBDS SVG Generator"
+}

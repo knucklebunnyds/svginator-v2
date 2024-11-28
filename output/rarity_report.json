@@ -1,0 +1,50 @@
+{
+  "timestamp": "2024-11-28T06:15:02.028Z",
+  "collectionSize": 300,
+  "globalRarityDistribution": {
+    "common": {
+      "count": 0,
+      "maxSupply": 80,
+      "percentage": "0.00%"
+    },
+    "uncommon": {
+      "count": 0,
+      "maxSupply": 50,
+      "percentage": "0.00%"
+    },
+    "rare": {
+      "count": 0,
+      "maxSupply": 20,
+      "percentage": "0.00%"
+    },
+    "legendary": {
+      "count": 0,
+      "maxSupply": 10,
+      "percentage": "0.00%"
+    }
+  },
+  "traitDistribution": {
+    "06_Head": {
+      "crown": {
+        "count": 0,
+        "maxSupply": 5,
+        "rarity": "legendary",
+        "percentage": "0.00%"
+      },
+      "mohawk": {
+        "count": 0,
+        "maxSupply": 15,
+        "rarity": "rare",
+        "percentage": "0.00%"
+      }
+    },
+    "03_Eyes": {
+      "3D_glasses": {
+        "count": 0,
+        "maxSupply": 30,
+        "rarity": "uncommon",
+        "percentage": "0.00%"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/* KBDS Collection Styles */
+
+/* Basic semantic class styles */
+.outline { 
+    fill: #FF00FF; 
+}
+
+.fill { 
+    fill: #00FFFF; 
+}
+
+.shading { 
+    fill: #FFD700; 
+    opacity: 0.8; 
+}
+
+/* Simple animation */
+path { 
+    transition: all 0.3s ease; 
+}
