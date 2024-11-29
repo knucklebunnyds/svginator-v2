@@ -24,36 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "KBDS"
+      "trait_type": "Background",
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-glare"
+      "value": "Og Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "battle scars"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "tall-hawk"
+      "value": "Tophat"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "stogie"
+      "value": "Stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

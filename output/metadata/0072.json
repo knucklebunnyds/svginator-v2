@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "green"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "steampunk-goggles"
+      "value": "Lennon"
     },
     {
       "trait_type": "Right Ear",
-      "value": "notched"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "OG"
+      "value": "Notched"
     },
     {
       "trait_type": "Head",
-      "value": "tall-hawk"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "stache"
+      "value": "Sideways Hat"
     }
   ],
   "compiler": "KBDS SVG Generator"

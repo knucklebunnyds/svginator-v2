@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "blue"
+      "trait_type": "Background",
+      "value": "Kbds"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "wayfairer"
+      "value": "Aviators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "metal plate"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "scruffy"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "dreads"
+      "value": "Sideways Hat"
     }
   ],
   "compiler": "KBDS SVG Generator"

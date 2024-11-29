@@ -24,36 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "blue"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators KBDS"
+      "value": "Og Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "scruffy"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "notched"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "speed-racer"
+      "value": "Rocker Hat"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "outlaw"
+      "value": "Biker Beard"
     }
   ],
   "compiler": "KBDS SVG Generator"

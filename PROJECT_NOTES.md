@@ -3,6 +3,22 @@
 ## Project Overview
 SVGinator v2 is an NFT generation system that combines SVG trait layers to create unique NFTs with interactive coloring capabilities.
 
+## Project Organization
+
+### 1. Core Generation (/src)
+- `index.js`: Main entry point
+- `config.js`: Project configuration
+- `svgNFTGenerator.js`: NFT generation engine
+- `traitCombiner.js`: Trait combination and rarity
+- `jsonGenerator.js`: Metadata generation
+
+### 2. Processing Scripts (/scripts)
+- `process-traits.js`: Main trait processing
+- `process-backgrounds.js`: Background processing
+- `test-backgrounds.js`: Background testing
+- `add-semantic-classes.js`: Semantic class handling
+- `backup-traits.js`: Backup utilities
+
 ## Key Components
 
 ### 1. SVG Trait Structure
@@ -15,62 +31,18 @@ SVGinator v2 is an NFT generation system that combines SVG trait layers to creat
 
 ### 2. Semantic Class System
 We use a semantic class system for interactive coloring:
-- `outline` - For black outlines/strokes
-- `fill` - For main fill areas
-- `shading` - For areas that provide depth/shading (opacity: 0.5)
+- `outline` - For black outlines/strokes (#000000)
+- `fill` - For main fill areas (#FFFFFF)
+- `shading` - For areas that provide depth/shading (#AAAAAA with opacity: 0.5)
 
 ### 3. Processing Pipeline
-The `process-svg.js` script handles trait processing:
+The trait processing pipeline:
 1. Preserves original colors as inline styles
 2. Removes style blocks
 3. Assigns semantic classes based on ID prefixes
 4. Maintains proper opacity values
 5. Removes unnecessary attributes
 6. Preserves IDs for positioning
-
-## Script Documentation
-
-### Core Processing Scripts
-1. `process-svg.js`
-   - Main SVG processing script
-   - Handles semantic class assignment
-   - Manages default styles and colors
-   - Cleans up unnecessary attributes
-
-2. `test-process-svg.js`
-   - Test suite for SVG processing
-   - Processes multiple trait files
-   - Provides detailed feedback
-
-### Utility Scripts
-1. `check-id-prefixes.js`
-   - Scans for non-standard ID prefixes
-   - Helps maintain consistent naming
-
-2. `check-layer1-ids.js`
-   - Identifies Adobe Layer_1 artifacts
-   - Helps clean up Illustrator exports
-
-3. `clean-adobe-artifacts.js`
-   - Removes Adobe-specific metadata
-   - Cleans up namespace declarations
-
-### Test Scripts
-1. `test-path.js`
-   - Tests individual path processing
-   - Validates semantic class application
-
-2. `test-svg.js`
-   - Tests full SVG file processing
-   - Validates style preservation
-
-## Current Status
-- ✅ SVG processing pipeline established
-- ✅ Semantic class system implemented
-- ✅ Color preservation working
-- ✅ Adobe artifact cleanup automated
-- ✅ Test suite created
-- ✅ Documentation updated
 
 ## Processing Rules
 
@@ -91,14 +63,14 @@ The `process-svg.js` script handles trait processing:
 - Types: fill, outline, shading
 - Names: descriptive, lowercase, hyphenated
 
-## Next Steps
-1. Test full NFT generation pipeline
-2. Implement external CSS handling
-3. Add trait rarity system
-4. Create interactive coloring UI
-
-## Known Issues
-- None currently - all major processing issues resolved
+## Current Status
+- ✅ Project organization cleaned and standardized
+- ✅ SVG processing pipeline established
+- ✅ Semantic class system implemented
+- ✅ Color preservation working
+- ✅ Background processing separated
+- ✅ Test suite updated
+- ✅ Documentation current
 
 ## Best Practices
 1. SVG Creation
@@ -115,3 +87,10 @@ The `process-svg.js` script handles trait processing:
    - Check trait combinations
    - Verify style inheritance
    - Test interactive coloring
+
+## NPM Scripts
+- `npm run generate`: Generate full collection
+- `npm run process:traits`: Process regular traits
+- `npm run process:backgrounds`: Process backgrounds
+- `npm run test:single-trait`: Test single trait
+- `npm run test:backgrounds`: Test backgrounds

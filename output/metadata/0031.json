@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "yellow"
+      "trait_type": "Background",
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "robo"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "OG"
+      "value": "Notched"
     },
     {
       "trait_type": "Head",
-      "value": "ram-horns"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "Beanie"
     }
   ],
   "compiler": "KBDS SVG Generator"

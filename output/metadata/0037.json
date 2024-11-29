@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "gray"
+      "trait_type": "Background",
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "monacle"
+      "value": "Og Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "stitches"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "stitches"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "palerider"
+      "value": "Steampunk Goggles"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "gray"
+      "trait_type": "Background",
+      "value": "Yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "wayfairer"
+      "value": "Snake Plissken"
     },
     {
       "trait_type": "Right Ear",
-      "value": "OG"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "jah-mon"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "Garden Tophat"
     }
   ],
   "compiler": "KBDS SVG Generator"

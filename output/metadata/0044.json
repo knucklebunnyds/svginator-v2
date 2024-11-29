@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "KBDS"
+      "trait_type": "Background",
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "wayfairer"
+      "value": "Half Robo Lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "slasher"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "lop-eared"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "rastacap"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "joint"
+      "value": "Hawker"
     }
   ],
   "compiler": "KBDS SVG Generator"

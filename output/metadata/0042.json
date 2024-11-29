@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "brown"
+      "trait_type": "Background",
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "half-robo-lefty"
+      "value": "Steampunk Goggles"
     },
     {
       "trait_type": "Right Ear",
-      "value": "stitches"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "stitches"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "hawker"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "Lemmy"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -24,32 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "blue"
+      "trait_type": "Background",
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "viper"
+      "value": "Wayfairer"
     },
     {
       "trait_type": "Right Ear",
-      "value": "KBDS tattoo"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "hi-tek"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "alien"
+      "value": "Slicked Black"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "Stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

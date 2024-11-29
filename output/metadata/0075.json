@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "blue"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "specs"
+      "value": "Navigators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "metal plate"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "safety pins"
+      "value": "Stitches"
     },
     {
       "trait_type": "Head",
-      "value": "sideways-hat"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "gasmask"
+      "value": "Dreads"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -24,36 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "auqua-graffiti"
+      "trait_type": "Background",
+      "value": "Brown"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-bandaid"
+      "value": "Lennon"
     },
     {
       "trait_type": "Right Ear",
-      "value": "lop-eared"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "lemmy"
+      "value": "Bandages"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "stache"
+      "value": "Joint"
     }
   ],
   "compiler": "KBDS SVG Generator"

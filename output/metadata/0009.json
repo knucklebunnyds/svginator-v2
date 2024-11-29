@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "green"
+      "trait_type": "Background",
+      "value": "Yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-bandaid"
+      "value": "Half Robo Righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "hi-tek"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "Robo"
     },
     {
       "trait_type": "Head",
-      "value": "rocker-hat"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "joint"
+      "value": "Slicked"
     }
   ],
   "compiler": "KBDS SVG Generator"

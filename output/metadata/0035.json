@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "red"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Snake-Plissken"
+      "value": "Og"
     },
     {
       "trait_type": "Right Ear",
-      "value": "OG"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "hi-tek"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "lemmy"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "outlaw"
+      "value": "Horny"
     }
   ],
   "compiler": "KBDS SVG Generator"

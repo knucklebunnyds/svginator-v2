@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "green"
+      "trait_type": "Background",
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators KBDS"
+      "value": "Lennon"
     },
     {
       "trait_type": "Right Ear",
-      "value": "cracked"
+      "value": "Stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "battle scars"
+      "value": "Robo"
     },
     {
       "trait_type": "Head",
-      "value": "garden tophat"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "Rocker Hat"
     }
   ],
   "compiler": "KBDS SVG Generator"

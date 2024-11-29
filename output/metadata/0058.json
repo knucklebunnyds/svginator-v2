@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "brown"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "steampunk-goggles"
+      "value": "Navigators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "KBDS tattoo"
+      "value": "Ringer"
     },
     {
       "trait_type": "Left Ear",
-      "value": "scruffy"
+      "value": "Stitches"
     },
     {
       "trait_type": "Head",
-      "value": "spiked"
+      "value": "Caesar"
     }
   ],
   "compiler": "KBDS SVG Generator"

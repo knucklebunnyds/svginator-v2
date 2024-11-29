@@ -24,36 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "red"
+      "trait_type": "Background",
+      "value": "Kbds"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "robo"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "notched"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "ringer"
+      "value": "Stitches"
     },
     {
       "trait_type": "Head",
-      "value": "dreads"
+      "value": "Dreads"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "stogie"
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

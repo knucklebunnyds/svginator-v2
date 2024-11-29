@@ -24,36 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "green"
+      "trait_type": "Background",
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "trooper"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "lop-eared"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "garden tophat"
+      "value": "Steampunk Hatter"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "outlaw"
+      "value": "Stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

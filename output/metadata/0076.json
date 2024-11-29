@@ -24,32 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "KBDS"
+      "trait_type": "Background",
+      "value": "Kbds"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "robo"
+      "value": "Lennon"
     },
     {
       "trait_type": "Right Ear",
-      "value": "robo"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "scruffy"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "steampunk-goggles"
+      "value": "Ram Horns"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "gray"
+      "trait_type": "Background",
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "trooper"
+      "value": "Monacle"
     },
     {
       "trait_type": "Right Ear",
-      "value": "lop-eared"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "Stitches"
     },
     {
       "trait_type": "Head",
-      "value": "bandaid"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "hombre"
+      "value": "Biker"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -24,32 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "KBDS"
+      "trait_type": "Background",
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-bandaid"
+      "value": "Robo"
     },
     {
       "trait_type": "Right Ear",
-      "value": "slasher"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "lop-eared"
+      "value": "Og"
     },
     {
       "trait_type": "Head",
-      "value": "tophat-knucks"
+      "value": "Rastacap"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "Nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

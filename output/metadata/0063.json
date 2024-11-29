@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "KBDS"
+      "trait_type": "Background",
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "goth"
+      "value": "Cracked Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "stitches"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "hi-tek"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "gi-helmet"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "biker-beard"
+      "value": "Spiked"
     }
   ],
   "compiler": "KBDS SVG Generator"

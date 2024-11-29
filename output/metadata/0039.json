@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "red"
+      "trait_type": "Background",
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "steampunk-goggles"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "battle scars"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "ringer"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "slicked"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "stogie"
+      "value": "Horned"
     }
   ],
   "compiler": "KBDS SVG Generator"

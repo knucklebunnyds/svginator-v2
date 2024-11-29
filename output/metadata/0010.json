@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "red"
+      "trait_type": "Background",
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-glare"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "slasher"
+      "value": "Stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "OG"
+      "value": "Stitches"
     },
     {
       "trait_type": "Head",
-      "value": "ram-horns"
+      "value": "Bandages"
     }
   ],
   "compiler": "KBDS SVG Generator"

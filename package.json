@@ -5,9 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test:traits": "node src/test.js",
+    "test:single-trait": "node src/test-single-trait.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node src/index.js",
+    "process:traits": "node scripts/process-traits.js",
+    "process:backgrounds": "node scripts/process-backgrounds.js",
+    "test:backgrounds": "node scripts/test-backgrounds.js",
     "backup-traits": "node scripts/backup-traits.js",
     "add-semantic-classes": "node scripts/add-semantic-classes.js"
   },

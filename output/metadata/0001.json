@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "red"
+      "trait_type": "Background",
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-glare"
+      "value": "Beaker"
     },
     {
       "trait_type": "Right Ear",
-      "value": "robo"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "alien"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "gasmask"
+      "value": "Tophat Knucks"
     }
   ],
   "compiler": "KBDS SVG Generator"

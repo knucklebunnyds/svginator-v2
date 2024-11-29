@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "red"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "cracked-glare"
+      "value": "Wayfairer"
     },
     {
       "trait_type": "Right Ear",
-      "value": "ringer"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "metal plate"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "hatflip"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "outlaw"
+      "value": "Banger"
     }
   ],
   "compiler": "KBDS SVG Generator"

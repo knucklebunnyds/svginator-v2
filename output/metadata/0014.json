@@ -24,32 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "gray"
+      "trait_type": "Background",
+      "value": "Brown"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "starchild"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "safety pins"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
-      "value": "notched"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "small-hawk"
+      "value": "Horny"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "Hombre"
     }
   ],
   "compiler": "KBDS SVG Generator"

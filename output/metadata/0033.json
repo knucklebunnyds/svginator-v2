@@ -24,36 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "gray"
+      "trait_type": "Background",
+      "value": "Yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "specs"
+      "value": "Half Robo Righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "stitches"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "scruffy"
+      "value": "Notched"
     },
     {
       "trait_type": "Head",
-      "value": "hatflip"
+      "value": "Lemmy"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "Nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

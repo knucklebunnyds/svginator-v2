@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "brown"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "goth"
+      "value": "Aviators Kbds"
     },
     {
       "trait_type": "Right Ear",
-      "value": "safety pins"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Left Ear",
-      "value": "robo"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Head",
-      "value": "hawker"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "stogie"
+      "value": "Beanie"
     }
   ],
   "compiler": "KBDS SVG Generator"

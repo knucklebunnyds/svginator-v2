@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "brown"
+      "trait_type": "Background",
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "wayfairer black-KBDS"
+      "value": "Cracked"
     },
     {
       "trait_type": "Right Ear",
-      "value": "scruffy"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "steampunk-hatter"
+      "value": "Alien"
     }
   ],
   "compiler": "KBDS SVG Generator"

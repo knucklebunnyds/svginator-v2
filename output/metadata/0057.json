@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "gray"
+      "trait_type": "Background",
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-bandaid"
+      "value": "Og Bandaid"
     },
     {
       "trait_type": "Right Ear",
-      "value": "KBDS tattoo"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "cracked"
+      "value": "Stitches"
     },
     {
       "trait_type": "Head",
-      "value": "steampunk-hatter"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "stogie"
+      "value": "Jah Mon"
     }
   ],
   "compiler": "KBDS SVG Generator"

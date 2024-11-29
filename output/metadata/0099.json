@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "auqua-graffiti"
+      "trait_type": "Background",
+      "value": "Kbds"
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-bandaid"
+      "value": "Cracked"
     },
     {
       "trait_type": "Right Ear",
-      "value": "cracked"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "KBDS tattoo"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "horned"
+      "value": "Rastacap"
     }
   ],
   "compiler": "KBDS SVG Generator"

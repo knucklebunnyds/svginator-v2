@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "blue"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "beaker"
+      "value": "Aviators Kbds"
     },
     {
       "trait_type": "Right Ear",
-      "value": "lop-eared"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "lop-eared"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "bandaid"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "outlaw"
+      "value": "Hatflip Kbds"
     }
   ],
   "compiler": "KBDS SVG Generator"

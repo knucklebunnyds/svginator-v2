@@ -24,32 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "KBDS"
+      "trait_type": "Background",
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators KBDS"
+      "value": "Og Bandaid"
     },
     {
       "trait_type": "Right Ear",
-      "value": "KBDS tattoo"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "safety pins"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Head",
-      "value": "steampunk-hatter"
+      "value": "Ace Helmet"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "Gasmask"
     }
   ],
   "compiler": "KBDS SVG Generator"

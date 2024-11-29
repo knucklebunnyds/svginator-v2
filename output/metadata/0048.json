@@ -24,32 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "blue"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "navigators"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "safety pins"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "safety pins"
+      "value": "Notched"
     },
     {
       "trait_type": "Head",
-      "value": "bowler"
+      "value": "Jah Mon"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "Stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "brown"
+      "trait_type": "Background",
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "half-robo"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "alien"
+      "value": "Wayfairer Black Kbds"
     },
     {
       "trait_type": "Right Ear",
-      "value": "cracked"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
-      "value": "ringer"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Head",
-      "value": "biker"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "outlaw"
+      "value": "Ram Horns"
     }
   ],
   "compiler": "KBDS SVG Generator"

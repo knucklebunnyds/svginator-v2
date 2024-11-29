@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "red"
+      "trait_type": "Background",
+      "value": "Brown"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "cracked-glare"
+      "value": "Og Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "slasher"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
-      "value": "ringer"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "rocker-hat"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "nosering"
+      "value": "Spiked"
     }
   ],
   "compiler": "KBDS SVG Generator"

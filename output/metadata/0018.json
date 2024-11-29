@@ -24,36 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "red"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "robo"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "half-robo-righty"
+      "value": "Half Robo Lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "robo"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Left Ear",
-      "value": "hi-tek"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Head",
-      "value": "horned"
-    },
-    {
-      "trait_type": "Mouthpiece",
-      "value": "gasmask"
+      "value": "Banger"
     }
   ],
   "compiler": "KBDS SVG Generator"

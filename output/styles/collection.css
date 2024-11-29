@@ -2,16 +2,16 @@
 
 /* Basic semantic class styles */
 .outline { 
-    fill: #000000; 
+    fill: #FF00FF; 
 }
 
 .fill { 
-    fill: #ffffff; 
+    fill: #00FFFF; 
 }
 
 .shading { 
-    fill: #aaaaaa; 
-    opacity: 0.5; 
+    fill: #9933FF; 
+    opacity: 0.6; 
 }
 
 /* Simple animation */

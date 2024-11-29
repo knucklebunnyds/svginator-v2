@@ -24,36 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "auqua-graffiti"
+      "trait_type": "Background",
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "trooper"
+      "value": "Monacle"
     },
     {
       "trait_type": "Right Ear",
-      "value": "notched"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "stitches"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "bandages"
+      "value": "Banger Black"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "biker-beard"
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

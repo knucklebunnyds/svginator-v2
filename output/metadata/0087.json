@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "gray"
+      "trait_type": "Background",
+      "value": "Kbds"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "half-robo-righty"
+      "value": "Monacle"
     },
     {
       "trait_type": "Right Ear",
-      "value": "KBDS tattoo"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "cracked"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "small-hawk"
+      "value": "Hatflip"
     }
   ],
   "compiler": "KBDS SVG Generator"

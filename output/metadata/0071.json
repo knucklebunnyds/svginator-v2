@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "KBDS"
+      "trait_type": "Background",
+      "value": "Brown"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "aviators KBDS"
+      "value": "Starchild"
     },
     {
       "trait_type": "Right Ear",
-      "value": "scruffy"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
-      "value": "stitches"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Head",
-      "value": "steampunk-goggles"
+      "value": "Gi Helmet"
     }
   ],
   "compiler": "KBDS SVG Generator"

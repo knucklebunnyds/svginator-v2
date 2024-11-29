@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "KBDS"
+      "trait_type": "Background",
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "doom-raider-mask"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "cracked-glare"
+      "value": "Viper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "OG"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "battle scars"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "speed-racer"
+      "value": "Hatflip"
     }
   ],
   "compiler": "KBDS SVG Generator"

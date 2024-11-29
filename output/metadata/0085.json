@@ -24,36 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "yellow"
+      "trait_type": "Background",
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "OG"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "starchild"
+      "value": "Aviators Kbds"
     },
     {
       "trait_type": "Right Ear",
-      "value": "battle scars"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "robo"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "dreads"
+      "value": "Tophat Knucks"
     },
     {
       "trait_type": "Mouthpiece",
-      "value": "stogie"
+      "value": "Nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

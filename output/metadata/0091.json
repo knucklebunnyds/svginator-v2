@@ -24,32 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "gray"
+      "trait_type": "Background",
+      "value": "Yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "goth"
+      "value": "Alien"
     },
     {
       "trait_type": "Right Ear",
-      "value": "lop-eared"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "safety pins"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "rockerdo"
+      "value": "Jah Mon"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "Stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

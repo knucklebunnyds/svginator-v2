@@ -24,32 +24,36 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "gray"
+      "trait_type": "Background",
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "headphones"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "monacle"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "scruffy"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "slasher"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "banger"
+      "value": "Bandages"
+    },
+    {
+      "trait_type": "Mouthpiece",
+      "value": "Stache"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "blue"
+      "trait_type": "Background",
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG-cracked"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "jaws"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "monacle"
+      "value": "Aviators Kbds"
     },
     {
       "trait_type": "Right Ear",
-      "value": "battle scars"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "hi-tek"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "small-hawk"
+      "value": "Caesar"
     }
   ],
   "compiler": "KBDS SVG Generator"

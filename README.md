@@ -6,34 +6,36 @@ A tool for processing and combining SVG trait files for NFT projects with intera
 
 ```
 .
-├── traits/              # Source SVG trait files organized by category
-├── output/             # Generated output files
-├── process-svg.js      # Main SVG processing script
-├── test-process-svg.js # Test script for SVG processing
-└── package.json        # Project dependencies and scripts
+├── src/                # Core functionality
+│   ├── index.js       # Entry point
+│   ├── config.js      # Configuration
+│   ├── svgNFTGenerator.js  # NFT generation
+│   ├── traitCombiner.js    # Trait combination logic
+│   └── jsonGenerator.js    # Metadata generation
+│
+├── scripts/           # Utility scripts
+│   ├── process-traits.js     # Main trait processing
+│   ├── process-backgrounds.js # Background processing
+│   ├── test-backgrounds.js   # Background testing
+│   └── add-semantic-classes.js # Semantic class handling
+│
+├── traits/           # Source SVG trait files by category
+├── output/          # Generated output files
+└── package.json     # Dependencies and scripts
 ```
 
-## Core Scripts
+## Core Components
 
-### process-svg.js
-Main script for processing SVG files. Handles:
-- Semantic class assignment (fill, outline, shading)
-- Default style application
-- Illustrator artifact cleanup
-- Style block processing
-- ID standardization
+### Generation (/src)
+- `svgNFTGenerator.js`: Main NFT generation engine
+- `traitCombiner.js`: Handles trait combinations and rarity
+- `jsonGenerator.js`: Generates NFT metadata
+- `config.js`: Project configuration
 
-Key features:
-- Preserves original colors and opacities
-- Converts Illustrator classes to semantic classes
-- Maintains proper opacity values (e.g., shading at 0.5)
-- Removes unnecessary attributes and style blocks
-
-### test-process-svg.js
-Test suite for validating SVG processing across multiple trait files.
-- Tests multiple trait categories
-- Provides detailed processing feedback
-- Helps identify potential issues
+### Processing (/scripts)
+- `process-traits.js`: Main trait processing script
+- `process-backgrounds.js`: Background-specific processing
+- `add-semantic-classes.js`: Semantic class management
 
 ## SVG Processing Rules
 
@@ -58,12 +60,19 @@ Example: `fill-body`, `outline-head`, `shading-arm`
 npm install
 ```
 
-2. Process SVG files:
+2. Process trait files:
 ```bash
-npm run test:process
+npm run process:traits    # Process regular traits
+npm run process:backgrounds  # Process backgrounds
 ```
 
-3. Generate combinations:
+3. Test processing:
+```bash
+npm run test:single-trait  # Test single trait
+npm run test:backgrounds   # Test backgrounds
+```
+
+4. Generate collection:
 ```bash
 npm run generate
 ```
@@ -72,5 +81,7 @@ npm run generate
 
 - All SVGs should be properly closed with matching tags
 - Background SVGs are handled differently from trait SVGs
-- Original colors and opacities are preserved during processing
-- Illustrator-specific classes (st0, st1, etc.) are converted to semantic classes 
+- Original colors are preserved as inline styles
+- Illustrator-specific classes (st0, st1, etc.) are converted to semantic classes
+- Each trait type maintains proper opacity values
+- Shading elements always use opacity: 0.5

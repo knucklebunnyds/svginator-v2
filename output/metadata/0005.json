@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "blue"
+      "trait_type": "Background",
+      "value": "Kbds"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "OG-bandaid"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "hi-tek"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "lop-eared"
+      "value": "Robo"
     },
     {
       "trait_type": "Head",
-      "value": "hatflip KBDS"
+      "value": "Sideways Hat"
     }
   ],
   "compiler": "KBDS SVG Generator"

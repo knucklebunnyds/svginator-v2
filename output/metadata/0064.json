@@ -24,32 +24,32 @@
   },
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "red"
+      "trait_type": "Background",
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "OG"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "cracked scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "monacle"
+      "value": "Cracked"
     },
     {
       "trait_type": "Right Ear",
-      "value": "robo"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "stitches"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "jah-mon"
+      "value": "Tophat"
     }
   ],
   "compiler": "KBDS SVG Generator"
