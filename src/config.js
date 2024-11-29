@@ -5,11 +5,11 @@ const fs = require('fs');
 const config = {
   collectionName: "KBDS Doge Knuckleheads",
   collectionDescription: "Straight out tha Burrows - A unique collection of Doge Knuckleheads, each reppin' its own quirky attitude and style.",
-  collectionSize: 100,
+  collectionSize: 300,
   
   // Folders
   traitsFolder: 'traits',
-  outputFolder: 'output',
+  outputFolder: 'output/images',
   
   // Canvas settings
   canvasSize: { 
@@ -17,10 +17,10 @@ const config = {
     height: 2048 
   },
 
-  // Semantic colors for SVG manipulation
+  // Semantic colors for SVG manipulation - Default theme
   semanticColors: {
     outline: '#000000',  // Black for outlines
-    fill: '#ffffff',     // White for fills
+    fill: '#FFFFFF',     // White for fills
     shading: {
       color: '#aaaaaa',  // Gray for shading
       opacity: 0.5       // 50% opacity for shading

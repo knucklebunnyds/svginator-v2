@@ -15,6 +15,9 @@ const traitCounts = {
   byTrait: {}  // Track individual traits
 };
 
+// Keep track of generated combinations
+const existingCombinations = new Set();
+
 function initializeTraitCounts() {
   // Initialize global rarity counts
   Object.keys(config.raritySystem.levels).forEach(rarity => {
@@ -298,29 +301,24 @@ function checkCompatibility(traits) {
   return true;
 }
 
-async function generateUniqueCombination(existingCombinations) {
-  let traits;
-  let isUnique = false;
+async function generateUniqueCombination() {
+  let traits = {};
   let attempts = 0;
-  const maxAttempts = 1000;
+  const maxAttempts = 100;
 
-  while (!isUnique && attempts < maxAttempts) {
+  while (attempts < maxAttempts) {
     traits = await generateTraitCombination();
-    if (checkCompatibility(traits)) {
-      const combinationString = JSON.stringify(traits);
-      if (!existingCombinations.has(combinationString)) {
-        isUnique = true;
-        existingCombinations.add(combinationString);
-      }
+    const combinationKey = JSON.stringify(traits);
+
+    if (!existingCombinations.has(combinationKey)) {
+      existingCombinations.add(combinationKey);
+      return traits;
     }
+
     attempts++;
   }
 
-  if (!isUnique) {
-    throw new Error("Unable to generate a unique combination after maximum attempts");
-  }
-
-  return traits;
+  throw new Error('Could not generate unique combination after ' + maxAttempts + ' attempts');
 }
 
 function getTraitNameWithoutRarity(traitFileName) {

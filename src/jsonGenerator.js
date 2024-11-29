@@ -6,6 +6,12 @@ function removeNumericPrefix(category) {
   return category.replace(/^\d+_/, '');
 }
 
+function capitalizeWords(str) {
+  return str.split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ');
+}
+
 function cleanTraitName(traitName) {
   return traitName
     // Remove any prefixes like "Ear Left -" or "mouth-"
@@ -51,12 +57,14 @@ function generateJSON(tokenId, traits) {
     
     // Attributes from traits
     attributes: Object.entries(traits).map(([category, trait]) => ({
-      trait_type: category.replace(/^\d+_/, ''), // Remove leading numbers and underscore
-      value: trait.replace('.svg', '')
+      trait_type: capitalizeWords(removeNumericPrefix(category)), // Capitalize each word in the trait type
+      value: cleanTraitName(trait)
     })),
     
     compiler: "KBDS SVG Generator"
   };
 }
 
-module.exports = { generateJSON };
+module.exports = {
+  generateJSON
+};
