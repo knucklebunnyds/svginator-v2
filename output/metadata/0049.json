@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Wayfairer Black Kbds"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Og"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Scruffy"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Ram Horns"
+      "value": "Banger"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Bearded 2"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

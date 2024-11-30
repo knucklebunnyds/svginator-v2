@@ -33,7 +33,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
@@ -45,15 +45,19 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Slasher"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "Palerider"
+      "value": "Hatflip"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Stache"
+      "trait_type": "Face",
+      "value": "Outlaw"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

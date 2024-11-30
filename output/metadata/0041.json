@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Red"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Bandaid"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Ace Helmet"
+      "value": "Dreads"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Gasmask"
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

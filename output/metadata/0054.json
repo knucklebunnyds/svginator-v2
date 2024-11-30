@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Red"
+      "value": "Dots"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cracked"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Og"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "Hatflip Kbds"
+      "value": "Bandaid"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Hombre"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

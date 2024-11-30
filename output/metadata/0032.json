@@ -25,31 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Righty"
+      "value": "Og Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Hi Tek"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Notched"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "Tophat"
+      "value": "Dreads"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Nosering"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

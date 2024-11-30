@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Red"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cracked Glare"
+      "value": "Half Robo Righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Notched"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Slasher"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "Spiked"
+      "value": "Caesar"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

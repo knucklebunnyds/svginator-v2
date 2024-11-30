@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Kbds"
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
@@ -37,19 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Og"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Ringer"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Slasher"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Horned"
+      "value": "Caesar"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Joint"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

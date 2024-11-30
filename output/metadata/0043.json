@@ -25,35 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Gray"
+      "value": "Dots"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Snake Plissken"
+      "value": "Viper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Battle Scars"
     },
     {
-      "trait_type": "Head",
-      "value": "Alien"
+      "trait_type": "Left Ear",
+      "value": "Slasher"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Bearded 2"
+      "trait_type": "Head",
+      "value": "Beanie"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Joint"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

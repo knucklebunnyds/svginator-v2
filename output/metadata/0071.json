@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Radial Halftone"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Starchild"
+      "value": "Half Robo Righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Og"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Scruffy"
     },
     {
+      "trait_type": "Left Ear",
+      "value": "Og"
+    },
+    {
       "trait_type": "Head",
-      "value": "Gi Helmet"
+      "value": "Slicked Black"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

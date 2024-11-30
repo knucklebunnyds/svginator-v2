@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Ocean Depths"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Aviators"
+      "value": "Goth"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Kbds Tattoo"
+      "value": "Cracked"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Stitches"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
       "value": "Small Hawk"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Gasmask"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

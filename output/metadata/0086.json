@@ -25,35 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Sunset Glow"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Righty"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Notched"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Slasher"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "Steampunk Goggles"
+      "value": "Hippy"
     },
     {
-      "trait_type": "Mouthpiece",
+      "trait_type": "Face",
       "value": "Bearded 2"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

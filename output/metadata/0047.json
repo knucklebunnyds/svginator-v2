@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Ocean Depths"
     },
     {
       "trait_type": "Jaw",
@@ -37,19 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Lop Eared"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Kbds Tattoo"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "Horned"
+      "value": "Steampunk Hatter"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Outlaw"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

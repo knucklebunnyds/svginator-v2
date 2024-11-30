@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Yellow"
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Goth"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "Jah Mon"
+      "value": "Lemmy"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Stogie"
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

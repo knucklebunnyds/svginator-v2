@@ -25,31 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Sunset Glow"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beaker"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Cracked"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Ringer"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "Slicked"
+      "value": "Palerider"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Nosering"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

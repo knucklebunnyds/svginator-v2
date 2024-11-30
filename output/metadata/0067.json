@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Yellow"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
@@ -37,7 +37,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Monacle"
+      "value": "Half Robo Righty"
     },
     {
       "trait_type": "Right Ear",
@@ -45,15 +45,15 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Lop Eared"
+      "value": "Robo"
     },
     {
       "trait_type": "Head",
-      "value": "Bandages"
+      "value": "Horny"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Bearded 2"
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

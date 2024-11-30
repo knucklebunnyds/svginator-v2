@@ -25,35 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Robo"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Hi Tek"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Kbds Tattoo"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Lemmy"
+      "value": "Tophat Knucks"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Joint"
+      "trait_type": "Face",
+      "value": "Nosering"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

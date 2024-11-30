@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Yellow"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
@@ -37,23 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Trooper"
+      "value": "Patch Square"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Notched"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Tophat Knucks"
+      "value": "Hawker"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Biker Beard"
+      "trait_type": "Face",
+      "value": "Stogie"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

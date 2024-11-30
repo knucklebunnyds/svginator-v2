@@ -25,19 +25,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Gray"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steampunk Goggles"
+      "value": "Wayfairer"
     },
     {
       "trait_type": "Right Ear",
@@ -45,11 +45,19 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Head",
-      "value": "Lemmy"
+      "value": "Bowler"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Bearded 2"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

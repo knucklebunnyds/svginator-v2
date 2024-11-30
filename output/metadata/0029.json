@@ -25,31 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Red"
+      "value": "Circuit"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Righty"
+      "value": "Half Robo Lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Safety Pins"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Robo"
     },
     {
       "trait_type": "Head",
-      "value": "Speed Racer"
+      "value": "Gi Helmet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Nosering"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

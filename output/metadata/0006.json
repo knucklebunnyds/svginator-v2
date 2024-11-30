@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Radial Halftone"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cracked Glare"
+      "value": "Og Bandaid"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Metal Plate"
+      "value": "Cracked"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Darkhawk"
+      "value": "Palerider"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

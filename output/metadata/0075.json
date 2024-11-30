@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
@@ -37,19 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Navigators"
+      "value": "Starchild"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Lop Eared"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Stitches"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Head",
-      "value": "Dreads"
+      "value": "Slicked"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Biker Beard"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

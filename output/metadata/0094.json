@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,23 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Glare"
-    },
-    {
-      "trait_type": "Right Ear",
-      "value": "Scruffy"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Robo"
     },
     {
-      "trait_type": "Head",
-      "value": "Garden Tophat"
+      "trait_type": "Right Ear",
+      "value": "Battle Scars"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Joint"
+      "trait_type": "Left Ear",
+      "value": "Cracked"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Jah Mon"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Stogie"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

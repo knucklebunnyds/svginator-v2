@@ -25,31 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Trooper"
+      "value": "Robo"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Cracked"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "Hatflip"
+      "value": "Shaghawk"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Joint"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -9,7 +9,10 @@ const config = {
   
   // Folders
   traitsFolder: 'traits',
-  outputFolder: 'output/images',
+  outputFolder: 'output',
+  imagesFolder: 'output/images',
+  metadataFolder: 'output/metadata',
+  zipFolder: 'output/zips',
   
   // Canvas settings
   canvasSize: { 
@@ -17,13 +20,13 @@ const config = {
     height: 2048 
   },
 
-  // Semantic colors for SVG manipulation - Default theme
+  // Semantic colors for SVG manipulation - Modern Navy Theme
   semanticColors: {
-    outline: '#000000',  // Black for outlines
-    fill: '#FFFFFF',     // White for fills
+    outline: '#1B365D',  // Deep navy for outlines
+    fill: '#F5F5F0',     // Light cream for fills
     shading: {
-      color: '#aaaaaa',  // Gray for shading
-      opacity: 0.5       // 50% opacity for shading
+      color: '#7B8FA1',  // Cool blue-gray for shading
+      opacity: 0.4       // 40% opacity for shading
     }
   },
 

@@ -25,19 +25,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Bandaid Glare"
+      "value": "Aviators"
     },
     {
       "trait_type": "Right Ear",
@@ -45,11 +45,19 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Notched"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "Beanie"
+      "value": "Spiked"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Gasmask"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

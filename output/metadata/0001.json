@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Red"
+      "value": "Halftone"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beaker"
+      "value": "Starchild"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Safety Pins"
+      "value": "Stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Slasher"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Head",
-      "value": "Tophat Knucks"
+      "value": "Biker"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

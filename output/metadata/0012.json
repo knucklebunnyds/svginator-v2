@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
@@ -33,15 +33,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Robo"
+      "value": "Half Robo Righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Metal Plate"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
@@ -49,11 +49,15 @@
     },
     {
       "trait_type": "Head",
-      "value": "Rastacap"
+      "value": "Speed Racer"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Nosering"
+      "trait_type": "Face",
+      "value": "Hombre"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

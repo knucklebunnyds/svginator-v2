@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Monacle"
+      "value": "Cracked"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Metal Plate"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Stitches"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "Biker"
+      "value": "Bandages"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

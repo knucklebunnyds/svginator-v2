@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
@@ -33,23 +33,31 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Aviators Kbds"
+      "value": "Viper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Lop Eared"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Lop Eared"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "Hatflip Kbds"
+      "value": "Banger"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Joint"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

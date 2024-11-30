@@ -25,35 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Ocean Depths"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wayfairer"
+      "value": "Aviators Kbds"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Ringer"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Slicked Black"
+      "value": "Banger"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Stogie"
+      "trait_type": "Face",
+      "value": "Joint"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

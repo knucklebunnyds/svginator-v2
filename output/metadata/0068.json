@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Brown"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Specs"
+      "value": "Half Robo Lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Notched"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Bandages"
+      "value": "Hippy"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Stache"
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
@@ -37,19 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Viper"
+      "value": "Aviators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Lop Eared"
+      "value": "Stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Safety Pins"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Head",
-      "value": "Hatflip"
+      "value": "Banger Black"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Nosering"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

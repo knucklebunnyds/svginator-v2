@@ -3,11 +3,12 @@ const { getTraitNameWithoutRarity } = require('./traitCombiner');
 const config = require('./config');
 
 function removeNumericPrefix(category) {
-  return category.replace(/^\d+_/, '');
+  return category.replace(/^\d+_/, '').replace('Mouthpiece', 'Face');
 }
 
 function capitalizeWords(str) {
-  return str.split(' ')
+  return str.replace('mouthpiece', 'face')
+    .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(' ');
 }
@@ -15,7 +16,7 @@ function capitalizeWords(str) {
 function cleanTraitName(traitName) {
   return traitName
     // Remove any prefixes like "Ear Left -" or "mouth-"
-    .replace(/^(Ear (Left|Right) -|mouth-|eyes-)/i, '')
+    .replace(/^(Ear (Left|Right) -|mouth-|eyes-|face-)/i, '')
     // Remove file extension
     .replace('.svg', '')
     // Replace dashes and underscores with spaces
@@ -29,9 +30,12 @@ function cleanTraitName(traitName) {
 }
 
 function generateJSON(tokenId, traits) {
+  console.log('Generating JSON for token:', tokenId);
+  console.log('Input traits:', traits);
+  
   const paddedId = String(tokenId).padStart(4, '0');
   
-  return {
+  const metadata = {
     name: `${config.collectionName} #${paddedId}`,
     image: `${paddedId}.svg`,
     description: config.collectionDescription,
@@ -63,6 +67,9 @@ function generateJSON(tokenId, traits) {
     
     compiler: "KBDS SVG Generator"
   };
+
+  console.log('Generated metadata:', metadata);
+  return metadata;
 }
 
 module.exports = {

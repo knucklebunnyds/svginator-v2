@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Wayfairer"
+      "value": "Beaker"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Ringer"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "Banger"
+      "value": "Rockerdo"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Gasmask"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

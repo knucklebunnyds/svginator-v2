@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Bandaid"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Stitches"
     },
     {
+      "trait_type": "Left Ear",
+      "value": "Battle Scars"
+    },
+    {
       "trait_type": "Head",
-      "value": "Jah Mon"
+      "value": "Hippy"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Sunset Glow"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Starchild"
+      "value": "Patch Square"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Og"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Scruffy"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "Rockerdo"
+      "value": "Sideways Hat"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

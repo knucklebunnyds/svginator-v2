@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Aviators Kbds"
+      "value": "Viper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Scruffy"
+      "value": "Robo"
     },
     {
       "trait_type": "Head",
-      "value": "Ram Horns"
+      "value": "Alien"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Gasmask"
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

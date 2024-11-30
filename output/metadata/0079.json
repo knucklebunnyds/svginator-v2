@@ -25,31 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Brown"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Aviators Kbds"
+      "value": "Goth"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Hi Tek"
+      "value": "Stitches"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Beanie"
+      "value": "Darkhawk"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Stogie"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

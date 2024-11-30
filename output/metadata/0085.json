@@ -25,35 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Aviators Kbds"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "Tophat Knucks"
+      "value": "Garden Tophat"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Nosering"
+      "trait_type": "Face",
+      "value": "Outlaw"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

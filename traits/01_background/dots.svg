@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <pattern id="dots-pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="15" fill="#444444"/>
+      <circle cx="0" cy="0" r="15" fill="#444444"/>
+      <circle cx="60" cy="0" r="15" fill="#444444"/>
+      <circle cx="0" cy="60" r="15" fill="#444444"/>
+      <circle cx="60" cy="60" r="15" fill="#444444"/>
+    </pattern>
+  </defs>
+  <rect id="color-dots-bg" class="color" width="2048" height="2048" fill="#666666"/>
+  <rect id="color-dots-pattern" class="color" width="2048" height="2048" fill="url(#dots-pattern)"/>
+</svg> 

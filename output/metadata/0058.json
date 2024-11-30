@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Navigators"
+      "value": "Snake Plissken"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Ringer"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Stitches"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "Caesar"
+      "value": "Horny"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

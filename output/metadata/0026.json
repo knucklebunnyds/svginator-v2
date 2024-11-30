@@ -25,19 +25,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Gray"
+      "value": "Scanlines"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Monacle"
+      "value": "Aviators"
     },
     {
       "trait_type": "Right Ear",
@@ -45,15 +45,15 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Og"
     },
     {
       "trait_type": "Head",
-      "value": "Banger Black"
+      "value": "Horny"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Outlaw"
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

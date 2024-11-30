@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Gray"
+      "value": "Sunset Glow"
     },
     {
       "trait_type": "Jaw",
@@ -33,23 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Lefty"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Metal Plate"
+      "value": "Cracked"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "Hawker"
+      "value": "Rastacap"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

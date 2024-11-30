@@ -25,35 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Kbds"
+      "value": "Brown"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Snake Plissken"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Ringer"
+      "value": "Og"
     },
     {
       "trait_type": "Head",
-      "value": "Small Hawk"
+      "value": "Tophat"
     },
     {
-      "trait_type": "Mouthpiece",
+      "trait_type": "Face",
       "value": "Biker Beard"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

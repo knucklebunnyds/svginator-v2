@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Halftone"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Robo"
+      "value": "Lennon"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Lop Eared"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Scruffy"
     },
     {
-      "trait_type": "Head",
-      "value": "Speed Racer"
+      "trait_type": "Left Ear",
+      "value": "Og"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Nosering"
+      "trait_type": "Head",
+      "value": "Spiked"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

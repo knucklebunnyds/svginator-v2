@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Yellow"
+      "value": "Scanlines"
     },
     {
       "trait_type": "Jaw",
@@ -33,23 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Righty"
-    },
-    {
-      "trait_type": "Right Ear",
-      "value": "Metal Plate"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Robo"
     },
     {
+      "trait_type": "Right Ear",
+      "value": "Robo"
+    },
+    {
+      "trait_type": "Left Ear",
+      "value": "Scruffy"
+    },
+    {
       "trait_type": "Head",
-      "value": "Slicked"
+      "value": "Tophat Knucks"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

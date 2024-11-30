@@ -25,31 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Kbds"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cracked"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Lop Eared"
     },
     {
+      "trait_type": "Left Ear",
+      "value": "Stitches"
+    },
+    {
       "trait_type": "Head",
-      "value": "Rastacap"
+      "value": "Tall Hawk"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

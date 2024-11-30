@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Gray"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Trooper"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Lop Eared"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "Steampunk Hatter"
+      "value": "Hawker"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Stogie"
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

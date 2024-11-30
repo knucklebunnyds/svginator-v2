@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Kbds"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Patch Square"
+      "value": "Aviators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Ringer"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Cracked"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Hatflip"
+      "value": "Bowler"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Joint"
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

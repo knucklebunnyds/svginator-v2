@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
@@ -37,7 +37,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Monacle"
+      "value": "Alien"
     },
     {
       "trait_type": "Right Ear",
@@ -45,11 +45,19 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Notched"
     },
     {
       "trait_type": "Head",
-      "value": "Palerider"
+      "value": "Banger"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Stogie"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,11 +37,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Og"
+      "value": "Robo"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Kbds Tattoo"
+      "value": "Cracked"
     },
     {
       "trait_type": "Left Ear",
@@ -49,11 +49,11 @@
     },
     {
       "trait_type": "Head",
-      "value": "Banger Black"
+      "value": "Caesar"
     },
     {
-      "trait_type": "Mouthpiece",
-      "value": "Stache"
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

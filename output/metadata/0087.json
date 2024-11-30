@@ -25,31 +25,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Kbds"
+      "value": "Sunset Glow"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Monacle"
+      "value": "Cracked Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Safety Pins"
+      "value": "Ringer"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Slasher"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Hatflip"
+      "value": "Caesar"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Outlaw"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

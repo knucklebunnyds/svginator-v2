@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,19 +37,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Specs"
+      "value": "Goth"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Og"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Rastacap"
+      "value": "Tophat"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Hombre"
+    },
+    {
+      "trait_type": "Backgrounds",
+      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"
