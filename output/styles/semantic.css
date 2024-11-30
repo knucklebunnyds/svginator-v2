@@ -1,0 +1,67 @@
+/* KBDS Semantic Styles */
+
+/* Base semantic classes */
+.outline { 
+  fill: #2E0854 !important; /* Deep purple outline */ 
+}
+
+.fill { 
+  fill: #FEFAE0 !important; /* Warm cream fill */ 
+}
+
+.shading { 
+  fill: #9B6B9E !important; /* Muted purple shading */
+  opacity: 0.45 !important; 
+}
+
+/* Background gradients */
+#purple-haze-gradient stop:first-child { stop-color: #E6E6FA !important; }
+#purple-haze-gradient stop:last-child { stop-color: #4B0082 !important; }
+
+#ocean-depths-gradient stop:first-child { stop-color: #E0FFFF !important; }
+#ocean-depths-gradient stop:last-child { stop-color: #00008B !important; }
+
+#forest-mist-gradient stop:first-child { stop-color: #F0FFF0 !important; }
+#forest-mist-gradient stop:last-child { stop-color: #004B00 !important; }
+
+#sunset-glow-gradient stop:first-child { stop-color: #FFDAB9 !important; }
+#sunset-glow-gradient stop:last-child { stop-color: #8B0000 !important; }
+
+/* Interactive hover effects */
+.trait-group:hover .fill {
+  fill: #FFE5B4 !important; /* Peach on hover */
+  transition: fill 0.3s ease;
+}
+
+.trait-group:hover .shading {
+  fill: #B784A7 !important; /* Lighter purple shading on hover */
+  opacity: 0.5 !important;
+  transition: fill 0.3s ease, opacity 0.3s ease;
+}
+
+.trait-group:hover .outline {
+  fill: #4A0E5C !important; /* Slightly lighter purple outline on hover */
+  transition: fill 0.3s ease;
+}
+
+/* Theme variations */
+.theme-dark .outline { fill: #000000 !important; }
+.theme-dark .fill { fill: #ffffff !important; }
+.theme-dark .shading { fill: #333333 !important; opacity: 0.7 !important; }
+
+.theme-neon .outline { fill: #00ff00 !important; }
+.theme-neon .fill { fill: #ff00ff !important; }
+.theme-neon .shading { fill: #0000ff !important; opacity: 0.6 !important; }
+
+.theme-retro .outline { fill: #ff4400 !important; }
+.theme-retro .fill { fill: #ffcc00 !important; }
+.theme-retro .shading { fill: #cc3300 !important; opacity: 0.5 !important; }
+
+.theme-apocalypse .outline { fill: #1a0f0f !important; } /* Very dark brown-black outline */
+.theme-apocalypse .fill { fill: #e6d5b8 !important; } /* Light sand/bone color fill */
+.theme-apocalypse .shading { fill: #8b0000 !important; opacity: 0.5 !important; } /* Deep blood red shading */
+
+/* Make theme transitions smooth */
+.outline, .fill, .shading {
+  transition: fill 0.3s ease, opacity 0.3s ease;
+} 

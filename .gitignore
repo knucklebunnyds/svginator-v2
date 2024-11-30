@@ -30,5 +30,8 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-output/
-*.backup/ 
+*.backup/
+output/images/
+output/zips/
+output/metadata/
+rarity_report.json

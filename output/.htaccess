@@ -1,0 +1,28 @@
+# Enable directory browsing if needed
+Options +Indexes
+
+# Set default document
+DirectoryIndex index.html
+
+# Allow access from all domains
+Header set Access-Control-Allow-Origin "*"
+
+# Set proper MIME types
+AddType text/html .html
+AddType text/css .css
+AddType application/javascript .js
+AddType image/svg+xml .svg
+AddType application/json .json
+
+# Allow access to all files
+<FilesMatch ".*">
+    Order Allow,Deny
+    Allow from all
+    Require all granted
+</FilesMatch>
+
+# Prevent viewing of .htaccess file
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files> 
