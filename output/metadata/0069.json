@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Og"
+      "value": "Starchild"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Stitches"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Ace Helmet"
+      "value": "Shaghawk"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Biker Beard"
     }
   ],
   "compiler": "KBDS SVG Generator"

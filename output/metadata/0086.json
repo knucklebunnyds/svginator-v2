@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunset Glow"
+      "value": "Popart"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
@@ -37,27 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Specs"
+      "value": "Og Bandaid"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Kbds Tattoo"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Head",
-      "value": "Hippy"
+      "value": "Steampunk Goggles"
     },
     {
       "trait_type": "Face",
-      "value": "Bearded 2"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

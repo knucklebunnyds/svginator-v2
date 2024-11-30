@@ -25,39 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Circuit"
+      "value": "Ocean Depths"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Lefty"
+      "value": "Navigators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Ringer"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Stitches"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Garden Tophat"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Outlaw"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Tophat Knucks"
     }
   ],
   "compiler": "KBDS SVG Generator"

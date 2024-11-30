@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
@@ -37,27 +37,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Trooper"
+      "value": "Goth"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Ringer"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Og"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Tophat"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Biker Beard"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Bandaid"
     }
   ],
   "compiler": "KBDS SVG Generator"

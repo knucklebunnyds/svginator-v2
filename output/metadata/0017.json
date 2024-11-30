@@ -25,19 +25,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Specs"
+      "value": "Starchild"
     },
     {
       "trait_type": "Right Ear",
@@ -45,19 +45,11 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Robo"
     },
     {
       "trait_type": "Head",
-      "value": "Tophat Knucks"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Nosering"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Spiked"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Red"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
@@ -37,7 +37,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beaker"
+      "value": "Cracked"
     },
     {
       "trait_type": "Right Ear",
@@ -49,15 +49,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Rastacap"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Bearded 2"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Horned"
     }
   ],
   "compiler": "KBDS SVG Generator"

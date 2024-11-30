@@ -25,39 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Purple Haze"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beaker"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Cracked"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "Rockerdo"
+      "value": "Alien"
     },
     {
       "trait_type": "Face",
-      "value": "Gasmask"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Stache"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <svg id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" class="background">
   <defs>
     <radialGradient id="sunset-glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
@@ -6,5 +7,5 @@
       <stop offset="100%" style="stop-color:#8B0000"/>
     </radialGradient>
   </defs>
-  <path id="color-sunset-glow" class="color" d="M2048,0v2048H0V0h2048Z" fill="url(#sunset-glow-gradient)"/>
-</svg> 
+  <path id="color-sunset-glow" class="color" d="M2048,0v2048H0V0h2048Z" fill="url(#sunset-glow-gradient)" style="fill: url(#sunset-glow-gradient)"/>
+</svg>

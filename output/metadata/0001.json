@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Halftone"
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Starchild"
+      "value": "Wayfairer Black Kbds"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Stitches"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Scruffy"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Biker"
+      "value": "Caesar"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Hombre"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest Mist"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Lefty"
+      "value": "Starchild"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Kbds Tattoo"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Darkhawk"
+      "value": "Alien"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean Depths"
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
@@ -37,7 +37,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Bandaid Glare"
+      "value": "Monacle"
     },
     {
       "trait_type": "Right Ear",
@@ -45,19 +45,15 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Lop Eared"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "Steampunk Hatter"
+      "value": "Alien"
     },
     {
       "trait_type": "Face",
-      "value": "Outlaw"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

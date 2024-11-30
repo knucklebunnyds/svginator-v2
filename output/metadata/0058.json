@@ -25,23 +25,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Sunset Glow"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Snake Plissken"
+      "value": "Wayfairer"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Lop Eared"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
@@ -49,11 +49,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Horny"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Darkhawk"
     }
   ],
   "compiler": "KBDS SVG Generator"

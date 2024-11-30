@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunset Glow"
+      "value": "Zigzag"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Patch Square"
+      "value": "Og Bandaid"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Head",
-      "value": "Sideways Hat"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Shaghawk"
     }
   ],
   "compiler": "KBDS SVG Generator"

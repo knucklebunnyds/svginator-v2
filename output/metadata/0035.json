@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Patch Square"
+      "value": "Goth"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Safety Pins"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "Beanie"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Shaghawk"
     }
   ],
   "compiler": "KBDS SVG Generator"

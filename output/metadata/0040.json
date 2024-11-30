@@ -25,39 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunset Glow"
+      "value": "Kbds"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Cracked Glare"
-    },
-    {
-      "trait_type": "Right Ear",
       "value": "Og"
     },
     {
-      "trait_type": "Left Ear",
+      "trait_type": "Eyes",
+      "value": "Trooper"
+    },
+    {
+      "trait_type": "Right Ear",
       "value": "Cracked"
+    },
+    {
+      "trait_type": "Left Ear",
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
       "value": "Bowler"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Biker Beard"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,39 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Dots"
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Starchild"
+      "value": "Navigators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Stitches"
     },
     {
       "trait_type": "Head",
-      "value": "Caesar"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Joint"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Jah Mon"
     }
   ],
   "compiler": "KBDS SVG Generator"

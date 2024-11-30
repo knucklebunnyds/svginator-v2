@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Red"
+      "value": "Radial Halftone"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,23 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Starchild"
+      "value": "Cracked Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Kbds Tattoo"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Slicked"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Bandages"
     }
   ],
   "compiler": "KBDS SVG Generator"

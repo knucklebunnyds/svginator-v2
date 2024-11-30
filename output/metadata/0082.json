@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest Mist"
+      "value": "Halftone"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
-    },
-    {
-      "trait_type": "Mouth",
       "value": "Og"
     },
     {
+      "trait_type": "Mouth",
+      "value": "Cracked Scrappy"
+    },
+    {
       "trait_type": "Eyes",
-      "value": "Half Robo Righty"
+      "value": "Og Bandaid"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Stitches"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Dreads"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Jah Mon"
     }
   ],
   "compiler": "KBDS SVG Generator"

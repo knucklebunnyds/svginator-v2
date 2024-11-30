@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <svg id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" class="background">
   <defs>
     <pattern id="scanline-pattern" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
@@ -14,4 +15,4 @@
   <rect id="color-scanline-bg" class="color" width="2048" height="2048" fill="#222222"/>
   <rect id="color-scanline-glow" class="color" width="2048" height="2048" fill="url(#crt-glow)"/>
   <rect id="color-scanline-pattern" class="color" width="2048" height="2048" fill="url(#scanline-pattern)"/>
-</svg> 
+</svg>

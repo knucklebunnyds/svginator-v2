@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Scanlines"
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Robo"
+      "value": "Monacle"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Scruffy"
     },
     {
-      "trait_type": "Head",
-      "value": "Tophat Knucks"
+      "trait_type": "Left Ear",
+      "value": "Cracked"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Head",
+      "value": "Hatflip Kbds"
     }
   ],
   "compiler": "KBDS SVG Generator"

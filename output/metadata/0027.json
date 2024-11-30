@@ -25,39 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Halftone"
+      "value": "Popart"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Monacle"
+      "value": "Half Robo Righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Jah Mon"
+      "value": "Small Hawk"
     },
     {
       "trait_type": "Face",
-      "value": "Stogie"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

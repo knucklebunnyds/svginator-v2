@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Popart"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,27 +37,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Glare"
+      "value": "Lennon"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Og"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
       "value": "Rockerdo"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Biker Beard"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

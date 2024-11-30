@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunset Glow"
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Specs"
+      "value": "Wayfairer Black Kbds"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Cracked"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Cracked"
+      "value": "Slasher"
     },
     {
       "trait_type": "Head",
-      "value": "Rastacap"
+      "value": "Dreads"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Gasmask"
     }
   ],
   "compiler": "KBDS SVG Generator"

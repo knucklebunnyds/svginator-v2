@@ -25,39 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Zigzag"
+      "value": "Halftone"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Half Robo Righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Safety Pins"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Head",
-      "value": "Bandages"
+      "value": "Beanie"
     },
     {
       "trait_type": "Face",
-      "value": "Joint"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

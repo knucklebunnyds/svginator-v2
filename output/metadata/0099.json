@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Purple Haze"
+      "value": "Zigzag"
     },
     {
       "trait_type": "Jaw",
@@ -37,23 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Bandaid Glare"
+      "value": "Cracked Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Lop Eared"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Stitches"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "Tall Hawk"
+      "value": "Sideways Hat"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Gasmask"
     }
   ],
   "compiler": "KBDS SVG Generator"

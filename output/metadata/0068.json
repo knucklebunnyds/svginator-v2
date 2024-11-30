@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Scanlines"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,11 +37,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Lefty"
+      "value": "Steampunk Goggles"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Og"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
@@ -49,11 +49,11 @@
     },
     {
       "trait_type": "Head",
-      "value": "Hippy"
+      "value": "Horny"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Biker Beard"
     }
   ],
   "compiler": "KBDS SVG Generator"

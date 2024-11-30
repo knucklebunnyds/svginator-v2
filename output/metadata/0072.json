@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Dots"
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
-    },
-    {
-      "trait_type": "Mouth",
       "value": "Og"
     },
     {
+      "trait_type": "Mouth",
+      "value": "Jaws"
+    },
+    {
       "trait_type": "Eyes",
-      "value": "Aviators Kbds"
+      "value": "Beaker"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Notched"
+      "value": "Ringer"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Lop Eared"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Banger Black"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Spiked"
     }
   ],
   "compiler": "KBDS SVG Generator"

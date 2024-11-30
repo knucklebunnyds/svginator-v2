@@ -25,39 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Circuit"
+      "value": "Zigzag"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Navigators"
+      "value": "Specs"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Cracked"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Sideways Hat"
+      "value": "Spiked"
     },
     {
       "trait_type": "Face",
       "value": "Nosering"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
     }
   ],
   "compiler": "KBDS SVG Generator"

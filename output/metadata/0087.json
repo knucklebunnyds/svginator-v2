@@ -25,23 +25,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunset Glow"
+      "value": "Halftone"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cracked Glare"
+      "value": "Patch Square"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Ringer"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
@@ -49,15 +49,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Caesar"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Outlaw"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Slicked"
     }
   ],
   "compiler": "KBDS SVG Generator"

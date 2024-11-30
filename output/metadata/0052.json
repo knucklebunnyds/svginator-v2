@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Halftone"
+      "value": "Sunset Glow"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Lennon"
+      "value": "Aviators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Og"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "Spiked"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Banger"
     }
   ],
   "compiler": "KBDS SVG Generator"

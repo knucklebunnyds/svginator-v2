@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Radial Halftone"
     },
     {
       "trait_type": "Jaw",
@@ -37,23 +37,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Aviators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Slasher"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Shaghawk"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Darkhawk"
     }
   ],
   "compiler": "KBDS SVG Generator"

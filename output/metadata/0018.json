@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
@@ -33,31 +33,23 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Lennon"
+      "value": "Aviators Kbds"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Kbds Tattoo"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "Bandages"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Bearded 2"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Horned"
     }
   ],
   "compiler": "KBDS SVG Generator"

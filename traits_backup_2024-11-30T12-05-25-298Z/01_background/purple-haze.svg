@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="purple-haze-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#E6E6FA"/>
+      <stop offset="100%" style="stop-color:#4B0082"/>
+    </radialGradient>
+  </defs>
+  <path id="color-purple-haze" class="color" d="M2048,0v2048H0V0h2048Z" fill="url(#purple-haze-gradient)"/>
+</svg> 

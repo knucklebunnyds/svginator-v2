@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Scanlines"
+      "value": "Ocean Depths"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steampunk Goggles"
+      "value": "Og Bandaid"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Robo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Gi Helmet"
+      "value": "Slicked Black"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Hombre"
     }
   ],
   "compiler": "KBDS SVG Generator"

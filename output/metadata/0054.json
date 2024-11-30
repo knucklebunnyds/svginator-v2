@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Dots"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,27 +37,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Bandaid Glare"
+      "value": "Robo"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Kbds Tattoo"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Ringer"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Head",
-      "value": "Bandaid"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Hombre"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Steampunk Hatter"
     }
   ],
   "compiler": "KBDS SVG Generator"

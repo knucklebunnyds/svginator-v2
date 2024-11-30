@@ -25,39 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Purple Haze"
+      "value": "Popart"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Starchild"
+      "value": "Half Robo Lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Hi Tek"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Slicked"
+      "value": "Banger Black"
     },
     {
       "trait_type": "Face",
-      "value": "Biker Beard"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Hombre"
     }
   ],
   "compiler": "KBDS SVG Generator"

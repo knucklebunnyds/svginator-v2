@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest Mist"
+      "value": "Sunset Glow"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Viper"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Kbds Tattoo"
+      "value": "Cracked"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Robo"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Alien"
+      "value": "Banger Black"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Biker Beard"
     }
   ],
   "compiler": "KBDS SVG Generator"

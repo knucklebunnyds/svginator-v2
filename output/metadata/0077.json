@@ -25,39 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunset Glow"
+      "value": "Scanlines"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Robo"
+      "value": "Steampunk Goggles"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Notched"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Lop Eared"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Slicked"
+      "value": "Bandaid"
     },
     {
       "trait_type": "Face",
-      "value": "Stache"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Bearded 2"
     }
   ],
   "compiler": "KBDS SVG Generator"

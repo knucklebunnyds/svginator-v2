@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Radial Halftone"
+      "value": "Halftone"
     },
     {
       "trait_type": "Jaw",
@@ -37,23 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Specs"
+      "value": "Patch Square"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Og"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Kbds Tattoo"
     },
     {
-      "trait_type": "Head",
-      "value": "Slicked"
+      "trait_type": "Left Ear",
+      "value": "Metal Plate"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Head",
+      "value": "Ram Horns"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

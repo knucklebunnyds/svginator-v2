@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Kbds"
+      "value": "Radial Halftone"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Patch Square"
+      "value": "Wayfairer"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Lop Eared"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Rocker Hat"
+      "value": "Ace Helmet"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Hombre"
     }
   ],
   "compiler": "KBDS SVG Generator"

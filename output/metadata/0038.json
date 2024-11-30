@@ -25,39 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest Mist"
+      "value": "Brown"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Patch Square"
+      "value": "Beaker"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "Hawker"
+      "value": "Ace Helmet"
     },
     {
       "trait_type": "Face",
-      "value": "Stogie"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

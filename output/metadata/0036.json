@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Yellow"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Righty"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Notched"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "Ace Helmet"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Garden Tophat"
     }
   ],
   "compiler": "KBDS SVG Generator"

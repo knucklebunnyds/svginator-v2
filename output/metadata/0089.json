@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Halftone"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Righty"
+      "value": "Patch Square"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Kbds Tattoo"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Stitches"
+      "value": "Notched"
     },
     {
       "trait_type": "Head",
-      "value": "Banger"
+      "value": "Caesar"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

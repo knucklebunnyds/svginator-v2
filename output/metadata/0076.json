@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Dots"
+      "value": "Zigzag"
     },
     {
       "trait_type": "Jaw",
@@ -33,11 +33,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Starchild"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
@@ -45,19 +45,11 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Kbds Tattoo"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Shaghawk"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Stache"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Steampunk Hatter"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest Mist"
+      "value": "Green"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Snake Plissken"
+      "value": "Starchild"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Kbds Tattoo"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Lop Eared"
     },
     {
-      "trait_type": "Head",
-      "value": "Ace Helmet"
+      "trait_type": "Left Ear",
+      "value": "Notched"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Head",
+      "value": "Rastacap"
     }
   ],
   "compiler": "KBDS SVG Generator"

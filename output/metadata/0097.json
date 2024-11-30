@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Halftone"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Trooper"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Hi Tek"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Notched"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Head",
-      "value": "Small Hawk"
+      "value": "Rocker Hat"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

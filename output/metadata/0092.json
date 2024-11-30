@@ -25,15 +25,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
@@ -41,23 +41,19 @@
     },
     {
       "trait_type": "Right Ear",
-      "value": "Cracked"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Og"
     },
     {
+      "trait_type": "Left Ear",
+      "value": "Kbds Tattoo"
+    },
+    {
       "trait_type": "Head",
-      "value": "Jah Mon"
+      "value": "Sideways Hat"
     },
     {
       "trait_type": "Face",
-      "value": "Nosering"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Bearded 2"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,15 +25,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Radial Halftone"
+      "value": "Forest Mist"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
@@ -41,19 +41,19 @@
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Og"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Head",
-      "value": "Slicked Black"
+      "value": "Bowler"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -29,15 +29,15 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
-    },
-    {
-      "trait_type": "Mouth",
       "value": "Og"
     },
     {
+      "trait_type": "Mouth",
+      "value": "Cracked Scrappy"
+    },
+    {
       "trait_type": "Eyes",
-      "value": "Og Bandaid Glare"
+      "value": "Half Robo Lefty"
     },
     {
       "trait_type": "Right Ear",
@@ -45,15 +45,15 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Safety Pins"
     },
     {
       "trait_type": "Head",
-      "value": "Hawker"
+      "value": "Speed Racer"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Gasmask"
     }
   ],
   "compiler": "KBDS SVG Generator"

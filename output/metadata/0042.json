@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Purple Haze"
+      "value": "Popart"
     },
     {
       "trait_type": "Jaw",
@@ -33,31 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wayfairer"
+      "value": "Og"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Slasher"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Scruffy"
+      "value": "Og"
     },
     {
       "trait_type": "Head",
-      "value": "Bowler"
+      "value": "Rockerdo"
     },
     {
       "trait_type": "Face",
-      "value": "Bearded 2"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Hombre"
     }
   ],
   "compiler": "KBDS SVG Generator"

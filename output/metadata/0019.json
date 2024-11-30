@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Dots"
+      "value": "Auqua Graffiti"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Half Robo Righty"
-    },
-    {
-      "trait_type": "Right Ear",
-      "value": "Metal Plate"
-    },
-    {
-      "trait_type": "Left Ear",
       "value": "Og"
     },
     {
-      "trait_type": "Head",
-      "value": "Ace Helmet"
+      "trait_type": "Mouth",
+      "value": "Scrappy"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Eyes",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Right Ear",
+      "value": "Lop Eared"
+    },
+    {
+      "trait_type": "Left Ear",
+      "value": "Robo"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Steampunk Goggles"
     }
   ],
   "compiler": "KBDS SVG Generator"

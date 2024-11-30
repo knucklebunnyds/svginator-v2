@@ -29,15 +29,15 @@
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Righty"
+      "value": "Og Glare"
     },
     {
       "trait_type": "Right Ear",
@@ -45,15 +45,11 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Robo"
+      "value": "Og"
     },
     {
       "trait_type": "Head",
-      "value": "Horny"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Spiked"
     }
   ],
   "compiler": "KBDS SVG Generator"

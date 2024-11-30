@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Radial Halftone"
+      "value": "Purple Haze"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cracked"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Notched"
+      "value": "Cracked"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Notched"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Tall Hawk"
+      "value": "Steampunk Goggles"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

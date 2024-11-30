@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Gray"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Aviators Kbds"
+      "value": "Og"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Safety Pins"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Metal Plate"
+      "value": "Robo"
     },
     {
       "trait_type": "Head",
-      "value": "Caesar"
+      "value": "Lemmy"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

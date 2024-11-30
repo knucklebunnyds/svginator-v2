@@ -25,39 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Dots"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Og"
     },
     {
       "trait_type": "Eyes",
-      "value": "Viper"
+      "value": "Half Robo Lefty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Battle Scars"
+      "value": "Kbds Tattoo"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Slasher"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "Beanie"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Joint"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Tophat Knucks"
     }
   ],
   "compiler": "KBDS SVG Generator"

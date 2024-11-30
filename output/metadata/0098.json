@@ -25,39 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Yellow"
+      "value": "Dots"
     },
     {
       "trait_type": "Jaw",
-      "value": "Doom Raider Mask"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Goth"
+      "value": "Navigators"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Safety Pins"
+      "value": "Og"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Kbds Tattoo"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Head",
-      "value": "Tophat"
+      "value": "Beanie"
     },
     {
       "trait_type": "Face",
-      "value": "Hombre"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Bearded 2"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,39 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Brown"
+      "value": "Kbds"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Scrappy"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Half Robo Lefty"
-    },
-    {
-      "trait_type": "Right Ear",
       "value": "Og"
     },
     {
+      "trait_type": "Mouth",
+      "value": "Jaws"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Og Bandaid"
+    },
+    {
+      "trait_type": "Right Ear",
+      "value": "Ringer"
+    },
+    {
       "trait_type": "Left Ear",
-      "value": "Lop Eared"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "Hatflip"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Outlaw"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Rocker Hat"
     }
   ],
   "compiler": "KBDS SVG Generator"

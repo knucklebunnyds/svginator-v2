@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Red"
+      "value": "Zigzag"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Og"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Trooper"
+      "value": "Alien"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Stitches"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Stitches"
     },
     {
       "trait_type": "Head",
-      "value": "Hippy"
+      "value": "Horny"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

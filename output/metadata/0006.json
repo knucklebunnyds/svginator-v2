@@ -25,35 +25,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Radial Halftone"
+      "value": "Sunset Glow"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Half Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Bandaid"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Cracked"
+      "value": "Battle Scars"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Kbds Tattoo"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Palerider"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Bandaid"
     }
   ],
   "compiler": "KBDS SVG Generator"

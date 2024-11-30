@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean Depths"
+      "value": "Dots"
     },
     {
       "trait_type": "Jaw",
@@ -33,31 +33,23 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Cracked Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Aviators Kbds"
+      "value": "Robo"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Battle Scars"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Cracked"
     },
     {
       "trait_type": "Head",
-      "value": "Banger"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Joint"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Hatflip"
     }
   ],
   "compiler": "KBDS SVG Generator"

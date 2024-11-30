@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Popart"
     },
     {
       "trait_type": "Jaw",
@@ -33,27 +33,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Patch Square"
+      "value": "Cracked Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Battle Scars"
+      "value": "Lop Eared"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Slasher"
+      "value": "Hi Tek"
     },
     {
       "trait_type": "Head",
-      "value": "Hatflip Kbds"
+      "value": "Dreads"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Gasmask"
     }
   ],
   "compiler": "KBDS SVG Generator"

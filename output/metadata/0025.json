@@ -25,19 +25,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Auqua Graffiti"
+      "value": "Zigzag"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Og"
+      "value": "Wayfairer Black Kbds"
     },
     {
       "trait_type": "Right Ear",
@@ -45,19 +45,11 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Kbds Tattoo"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "Caesar"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Joint"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Rockerdo"
     }
   ],
   "compiler": "KBDS SVG Generator"

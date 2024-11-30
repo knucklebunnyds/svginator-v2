@@ -37,27 +37,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Aviators"
+      "value": "Og Bandaid Glare"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Kbds Tattoo"
+      "value": "Slasher"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Ringer"
+      "value": "Notched"
     },
     {
       "trait_type": "Head",
-      "value": "Slicked"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Outlaw"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Sideways Hat"
     }
   ],
   "compiler": "KBDS SVG Generator"

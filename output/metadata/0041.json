@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest Mist"
+      "value": "Zigzag"
     },
     {
       "trait_type": "Jaw",
-      "value": "Headphones"
+      "value": "Doom Raider Mask"
     },
     {
       "trait_type": "Mouth",
@@ -37,23 +37,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Specs"
+      "value": "Wayfairer"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Hi Tek"
+      "value": "Ringer"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Hi Tek"
+      "value": "Notched"
     },
     {
       "trait_type": "Head",
-      "value": "Dreads"
+      "value": "Bandages"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Nosering"
     }
   ],
   "compiler": "KBDS SVG Generator"

@@ -25,35 +25,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Purple Haze"
+      "value": "Red"
     },
     {
       "trait_type": "Jaw",
-      "value": "Og Cracked"
+      "value": "Robo"
     },
     {
       "trait_type": "Mouth",
-      "value": "Jaws"
+      "value": "Cracked Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Half Robo Righty"
+      "value": "Monacle"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Scruffy"
+      "value": "Metal Plate"
     },
     {
       "trait_type": "Left Ear",
-      "value": "Battle Scars"
+      "value": "Ringer"
     },
     {
       "trait_type": "Head",
-      "value": "Caesar"
+      "value": "Banger"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Stogie"
     }
   ],
   "compiler": "KBDS SVG Generator"

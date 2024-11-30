@@ -25,11 +25,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunset Glow"
+      "value": "Blue"
     },
     {
       "trait_type": "Jaw",
-      "value": "Robo"
+      "value": "Headphones"
     },
     {
       "trait_type": "Mouth",
@@ -37,11 +37,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Trooper"
+      "value": "Half Robo Righty"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
+      "value": "Scruffy"
     },
     {
       "trait_type": "Left Ear",
@@ -49,15 +49,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Palerider"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Nosering"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Rocker Hat"
     }
   ],
   "compiler": "KBDS SVG Generator"

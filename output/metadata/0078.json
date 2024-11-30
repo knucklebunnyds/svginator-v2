@@ -25,23 +25,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Scanlines"
+      "value": "Ocean Depths"
     },
     {
       "trait_type": "Jaw",
-      "value": "Half Robo"
+      "value": "Og Cracked"
     },
     {
       "trait_type": "Mouth",
-      "value": "Scrappy"
+      "value": "Jaws"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cracked"
+      "value": "Starchild"
     },
     {
       "trait_type": "Right Ear",
-      "value": "Robo"
+      "value": "Notched"
     },
     {
       "trait_type": "Left Ear",
@@ -49,11 +49,11 @@
     },
     {
       "trait_type": "Head",
-      "value": "Tophat Knucks"
+      "value": "Spiked"
     },
     {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "trait_type": "Face",
+      "value": "Outlaw"
     }
   ],
   "compiler": "KBDS SVG Generator"

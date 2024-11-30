@@ -25,7 +25,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Green"
+      "value": "Scanlines"
     },
     {
       "trait_type": "Jaw",
@@ -33,11 +33,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Og"
+      "value": "Scrappy"
     },
     {
       "trait_type": "Eyes",
-      "value": "Og Glare"
+      "value": "Aviators Kbds"
     },
     {
       "trait_type": "Right Ear",
@@ -45,19 +45,15 @@
     },
     {
       "trait_type": "Left Ear",
-      "value": "Ringer"
+      "value": "Notched"
     },
     {
       "trait_type": "Head",
-      "value": "Lemmy"
+      "value": "Slicked"
     },
     {
       "trait_type": "Face",
-      "value": "Stogie"
-    },
-    {
-      "trait_type": "Backgrounds",
-      "value": "Matrix Rain"
+      "value": "Hombre"
     }
   ],
   "compiler": "KBDS SVG Generator"
