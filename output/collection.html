@@ -29,22 +29,74 @@
             padding-bottom: 40px;
         }
 
+        /* Update the header styles */
         .header {
             text-align: center;
             padding: 40px 20px;
             border-bottom: 1px solid var(--border-color);
             margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
         }
 
-        .header img {
-            height: 60px;
-            margin-bottom: 20px;
+        /* Background image with reduced opacity */
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('img/KBDS-graffiti.png');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5;
+            z-index: 0;
+        }
+
+        /* Dark overlay */
+        .header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1;
+        }
+
+        .header h1, .header p, .header .nav-links {
+            position: relative;
+            z-index: 2;
         }
 
         .header h1 {
             font-size: 2.5em;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
             color: var(--brand-yellow);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .header .subtitle {
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .header h1 svg {
+            height: 1.4em;
+            width: auto;
+            fill: var(--brand-yellow);
+        }
+
+        p.subtitle {
+            font-size: 1.8em;
+            margin: 0 0 30px 0;
+            font-weight: 100;
+            color: gray;
         }
 
         .nav-links {
@@ -108,6 +160,8 @@
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 20px;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         /* Collection controls */
@@ -225,7 +279,9 @@
             display: grid;
             gap: 24px;
             transition: all 0.3s ease;
-            margin-top: 0;
+            margin: 0;
+            padding: 0;
+            width: 100%;
         }
 
         .nft-gallery.small-grid {
@@ -541,8 +597,13 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 8px;
+            margin: 0 0 10px 0;
+            padding: 10px;
             gap: 20px;
+            flex-wrap: nowrap;
+            width: 100%;
+            box-sizing: border-box;
+            background: #00000087;
         }
 
         .controls-left {
@@ -685,6 +746,7 @@
             background-position: right 8px center;
             background-size: 16px;
             transition: all 0.2s ease;
+            margin-right: 0;
         }
 
         .sort-select:hover {
@@ -1123,8 +1185,12 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin: 20px 0;
+            margin: 0 0 20px 0;
+            padding: 10px;
             gap: 20px;
+            flex-wrap: nowrap;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         .controls-left, .controls-right {
@@ -1263,12 +1329,138 @@
             max-width: 800px;
             margin: 0 auto;
         }
+
+        /* Add these styles */
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+        }
+
+        .controls-logo {
+            height: 40px;
+            width: auto;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .controls-logo:hover {
+            opacity: 1;
+        }
+
+        .header img {
+            display: none; /* Hide the original logo */
+        }
+
+        .controls-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            gap: 20px;
+            flex-wrap: nowrap;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .controls-left, .controls-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .controls-row {
+                flex-wrap: wrap;
+            }
+            
+            .logo-container {
+                order: -1;
+                width: 100%;
+                margin-bottom: 16px;
+            }
+            
+            .controls-left, .controls-right {
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+
+        /* Update header title */
+        <div class="header">
+            <h1>KBDS <svg viewBox="0 0 24 24" width="32" height="32"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg> Doginals</h1>
+            <p class="subtitle">Collection Preview</p>
+            <!-- rest of header content -->
+        </div>
+
+        /* Update control button styles */
+        .controls-left, .controls-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            width: 420px; /* Fixed width for symmetry */
+        }
+
+        .controls-left {
+            justify-content: flex-start;
+        }
+
+        .controls-right {
+            justify-content: flex-end;
+        }
+
+        .control-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            width: 130px; /* Fixed width for all buttons */
+            justify-content: center;
+            white-space: nowrap;
+        }
+
+        .theme-select, .sort-select {
+            width: 160px; /* Fixed width for dropdowns */
+            min-width: unset;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+            flex-shrink: 0;
+            width: 120px; /* Fixed width for logo container */
+        }
+
+        .controls-logo {
+            height: 40px;
+            width: auto;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        /* Ensure buttons maintain fixed width on hover/active states */
+        .control-btn:hover, .control-btn.active {
+            transform: translateY(-2px);
+            width: 130px;
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <img src="img/KBDS-logo.svg" alt="KBDS Logo">
-        <h1>Collection Preview</h1>
+        <h1>K.B.D.S. <svg viewBox="0 0 24 24" width="32" height="32"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg> Doginals</h1>
+        <p class="subtitle">Collection Preview</p>
         <div class="nav-links">
             <a href="index.html">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1305,7 +1497,7 @@
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/>
                         </svg>
-                        Filter & Sort
+                        Filter Traits
                     </button>
                 </div>
 
@@ -1321,6 +1513,10 @@
                     <option value="apocalypse">Theme: Apocalypse</option>
                 </select>
             </div>
+
+            <div class="logo-container">
+                <img src="img/KBDS-logo.svg" alt="KBDS Logo" class="controls-logo">
+            </div>
             
             <div class="controls-right">
                 <button class="control-btn view-toggle" onclick="toggleView()">
@@ -1330,7 +1526,7 @@
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="scroll-icon">
                         <path d="M12 5l7 7-7 7M5 5l7 7-7 7"/>
                     </svg>
-                    <span class="view-label">View: Paginated</span>
+                    <span class="view-label">Paginated</span>
                 </button>
 
                 <button class="control-btn size-toggle" onclick="toggleThumbnailSize()">
@@ -1343,7 +1539,7 @@
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="full-grid-icon">
                         <path d="M3 3h18v8H3zM3 13h18v8H3z"/>
                     </svg>
-                    <span class="size-label">Size: Large</span>
+                    <span class="size-label">Small</span>
                 </button>
 
                 <select class="sort-select" id="sortSelect">
@@ -2540,7 +2736,7 @@
             
             // Update button appearance
             viewToggle.classList.toggle('scroll-mode');
-            viewLabel.textContent = isScrollMode ? 'View: Scrolling' : 'View: Paginated';
+            viewLabel.textContent = isScrollMode ? 'Scrolling' : 'Paginated';
             
             // Toggle pagination visibility
             if (pagination) {
@@ -2698,7 +2894,7 @@
             // Update button appearance
             sizeToggle.classList.remove('small-mode', 'large-mode', 'full-mode');
             sizeToggle.classList.add(`${gridSize}-mode`);
-            sizeLabel.textContent = `Size: ${gridSize.charAt(0).toUpperCase() + gridSize.slice(1)}`;
+            sizeLabel.textContent = gridSize.charAt(0).toUpperCase() + gridSize.slice(1);
             
             // Update gallery grid size
             gallery.classList.remove('small-grid', 'large-grid', 'full-grid');
@@ -2730,6 +2926,21 @@
             } else {
                 gallery.classList.add('large-grid');
             }
+        });
+
+        // Initialize with correct label
+        const initializeUI = () => {
+            const sizeToggle = document.querySelector('.size-toggle');
+            const sizeLabel = sizeToggle?.querySelector('.size-label');
+            if (sizeLabel) {
+                sizeLabel.textContent = 'Small';
+            }
+        };
+
+        // Add to DOMContentLoaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeUI();
+            // ... rest of initialization code
         });
     </script>
 </body>
