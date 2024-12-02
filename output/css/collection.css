@@ -1,0 +1,244 @@
+/* Collection Header */
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/KBDS-graffiti.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.header h1, .header p, .header .nav-links {
+    position: relative;
+    z-index: 2;
+}
+
+.header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header h1 svg {
+    height: 1.4em;
+    width: auto;
+    fill: var(--brand-yellow);
+}
+
+.header .subtitle {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Collection Controls */
+.collection-controls {
+    margin-bottom: 8px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.collection-controls.active {
+    max-height: 800px;
+    opacity: 1;
+    padding: 24px;
+    margin-bottom: 8px;
+}
+
+.filter-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+}
+
+.collection-controls.active .filter-section {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.filter-group {
+    min-width: 0;
+}
+
+.filter-select {
+    width: 100%;
+    padding: 10px;
+    background: var(--bg-dark);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.filter-select:hover {
+    border-color: var(--brand-yellow);
+}
+
+/* Gallery Controls */
+.gallery-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    gap: 20px;
+}
+
+.controls-left, .controls-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 420px;
+}
+
+.controls-left {
+    justify-content: flex-start;
+}
+
+.controls-right {
+    justify-content: flex-end;
+}
+
+.controls-logo {
+    height: 40px;
+    width: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+/* NFT Gallery */
+.nft-gallery {
+    display: grid;
+    gap: 24px;
+    transition: all 0.3s ease;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nft-gallery.small-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.nft-gallery.large-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 24px;
+}
+
+.nft-gallery.full-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
+/* NFT Items */
+.nft-item {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nft-item:hover {
+    transform: translateY(-4px);
+}
+
+.nft-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: var(--bg-card);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    max-width: 90vw;
+    max-height: 90vh;
+    position: relative;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+.modal.active .modal-content {
+    transform: translateY(0);
+}
+
+.modal-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 24px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .filter-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-controls {
+        flex-direction: column;
+    }
+
+    .controls-left, .controls-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .filter-section {
+        grid-template-columns: 1fr;
+    }
+} 
