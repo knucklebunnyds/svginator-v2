@@ -32,6 +32,43 @@ Thumbs.db
 # Project specific
 *.backup/
 output/images/
+output/backup/
 output/zips/
 output/metadata/
 rarity_report.json
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Build and distribution
+dist/
+build/
+.next/
+out/
+
+# Backup files from modularization
+*-modular.*
+*.old
+*.bak
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+test-results/
+
+# Local development
+.env.development
+.env.test
+.env.production
+
+# IDE specific
+.idea/
+.vscode/
+*.code-workspace
+
+# Misc
+*.log
+.cache/
+.temp/

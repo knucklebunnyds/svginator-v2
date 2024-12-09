@@ -1,0 +1,36 @@
+:root {
+    /* Base theme variables */
+    --theme-background: #1a1a1a;
+    --theme-text: #ffffff;
+    --theme-text-secondary: rgba(255, 255, 255, 0.7);
+    --theme-border: rgba(255, 255, 255, 0.1);
+    --theme-primary: #ffd700;
+    --theme-yellow: #ffd700;
+    --theme-hover-background: rgba(255, 255, 255, 0.05);
+    --theme-header-overlay: rgba(0, 0, 0, 0.8);
+    --theme-modal-background: rgba(26, 26, 26, 0.95);
+    --theme-transition: all 0.3s ease;
+    
+    /* Gallery specific variables */
+    --gallery-grid-gap: 20px;
+    --gallery-item-size: 300px;
+    --gallery-columns: 4;
+}
+
+@media (max-width: 1400px) {
+    :root {
+        --gallery-columns: 3;
+    }
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --gallery-columns: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    :root {
+        --gallery-columns: 1;
+    }
+} 

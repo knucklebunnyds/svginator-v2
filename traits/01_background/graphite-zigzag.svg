@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="background" version="1.1" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Maze pattern -->
+    <pattern id="maze-pattern" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
+      <!-- Vertical lines -->
+      <path d="M40 0 L40 120 M80 40 L80 160 M120 0 L120 120" 
+            stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.15"/>
+      <!-- Horizontal lines -->
+      <path d="M0 40 L120 40 M40 80 L160 80 M0 120 L120 120" 
+            stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.15"/>
+      <!-- Corner pieces -->
+      <path d="M40 40 A40 40 0 0 1 80 80" fill="none" 
+            stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.12"/>
+      <path d="M120 80 A40 40 0 0 1 80 120" fill="none" 
+            stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.12"/>
+      <!-- Dots at intersections -->
+      <circle cx="40" cy="40" r="3" fill="#FFFFFF" fill-opacity="0.2"/>
+      <circle cx="80" cy="80" r="3" fill="#FFFFFF" fill-opacity="0.2"/>
+      <circle cx="120" cy="120" r="3" fill="#FFFFFF" fill-opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#696969"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Maze pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#maze-pattern)"/>
+</svg>

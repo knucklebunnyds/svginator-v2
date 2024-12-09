@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="background" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Organic leaf pattern -->
+    <pattern id="leaf-pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <!-- Leaf shape 1 -->
+      <path d="M30 10 
+               C 40 15, 45 25, 40 35
+               C 35 45, 25 45, 20 35
+               C 15 25, 20 15, 30 10" 
+            fill="none" 
+            stroke="#FFFFFF" 
+            stroke-width="1" 
+            stroke-opacity="0.12"/>
+      <!-- Leaf shape 2 (rotated) -->
+      <path d="M50 30 
+               C 55 40, 55 50, 45 45
+               C 35 40, 35 30, 45 25
+               C 55 20, 45 20, 50 30" 
+            fill="none" 
+            stroke="#FFFFFF" 
+            stroke-width="1" 
+            stroke-opacity="0.12"/>
+      <!-- Leaf veins -->
+      <path d="M30 10 L30 35 M25 20 L35 20 M23 25 L37 25 M20 30 L40 30" 
+            stroke="#FFFFFF" 
+            stroke-width="0.5" 
+            stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#32992c"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Leaf pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#leaf-pattern)"/>
+</svg>

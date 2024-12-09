@@ -2,25 +2,42 @@
 
 <svg id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" class="background">
   <defs>
-    <!-- Pop art dot pattern -->
-    <pattern id="popart-dots" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
-      <circle cx="25" cy="25" r="20" fill="#FF1493" opacity="0.8"/>
-      <circle cx="75" cy="25" r="20" fill="#00FFFF" opacity="0.8"/>
-      <circle cx="25" cy="75" r="20" fill="#FFFF00" opacity="0.8"/>
-      <circle cx="75" cy="75" r="20" fill="#FF4500" opacity="0.8"/>
-    </pattern>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
     
-    <!-- Diagonal stripes pattern -->
-    <pattern id="popart-stripes" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-      <rect x="0" y="0" width="20" height="40" fill="#FF1493" opacity="0.3"/>
-      <rect x="20" y="0" width="20" height="40" fill="#00FFFF" opacity="0.3"/>
+    <!-- Pop art dot pattern with overlapping circles -->
+    <pattern id="popart-dots" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <!-- Base layer -->
+      <circle cx="50" cy="50" r="45" fill="#FF1493" fill-opacity="0.4"/>
+      <circle cx="150" cy="50" r="45" fill="#00BFFF" fill-opacity="0.4"/>
+      <circle cx="50" cy="150" r="45" fill="#FFD700" fill-opacity="0.4"/>
+      <circle cx="150" cy="150" r="45" fill="#FF4500" fill-opacity="0.4"/>
+      
+      <!-- Overlapping layer -->
+      <circle cx="100" cy="100" r="45" fill="#FF1493" fill-opacity="0.4"/>
+      <circle cx="0" cy="100" r="45" fill="#00BFFF" fill-opacity="0.4"/>
+      <circle cx="200" cy="100" r="45" fill="#FFD700" fill-opacity="0.4"/>
+      <circle cx="100" cy="0" r="45" fill="#FF4500" fill-opacity="0.4"/>
+      <circle cx="100" cy="200" r="45" fill="#FF1493" fill-opacity="0.4"/>
+      
+      <!-- Small highlight dots -->
+      <circle cx="50" cy="50" r="10" fill="#FFFFFF" fill-opacity="0.3"/>
+      <circle cx="150" cy="50" r="10" fill="#FFFFFF" fill-opacity="0.3"/>
+      <circle cx="50" cy="150" r="10" fill="#FFFFFF" fill-opacity="0.3"/>
+      <circle cx="150" cy="150" r="10" fill="#FFFFFF" fill-opacity="0.3"/>
+      <circle cx="100" cy="100" r="10" fill="#FFFFFF" fill-opacity="0.3"/>
     </pattern>
   </defs>
   
-  <!-- Base color -->
-  <rect id="color-popart-bg" class="color" width="2048" height="2048" fill="#FF69B4"/>
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#FF69B4"/>
   
-  <!-- Patterns -->
-  <rect id="color-popart-dots" class="color" width="2048" height="2048" fill="url(#popart-dots)"/>
-  <rect id="color-popart-stripes" class="color" width="2048" height="2048" fill="url(#popart-stripes)"/>
-</svg> 
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Pop art dot pattern -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#popart-dots)"/>
+</svg>

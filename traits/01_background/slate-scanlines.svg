@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="background" version="1.1" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Hexagonal grid pattern -->
+    <pattern id="hex-pattern" x="0" y="0" width="120" height="104" patternUnits="userSpaceOnUse">
+      <!-- First row -->
+      <path d="M30 52 L60 0 L90 52 L60 104 L30 52 M30 52 L90 52" 
+            fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.12"/>
+      <path d="M90 52 L120 0 L150 52 L120 104 L90 52 M90 52 L150 52" 
+            fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.12"/>
+      <!-- Second row (offset) -->
+      <path d="M0 52 L30 0 L60 52 L30 104 L0 52 M0 52 L60 52" 
+            fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.12"/>
+      <!-- Inner details -->
+      <circle cx="60" cy="52" r="8" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.08"/>
+      <circle cx="120" cy="52" r="8" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.08"/>
+      <circle cx="30" cy="52" r="8" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#708090"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Hexagonal grid pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#hex-pattern)"/>
+</svg>

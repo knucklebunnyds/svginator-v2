@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="background" version="1.1" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Single doge definition -->
+    <g id="doge">
+      <path d="M908.63,1.56c20.42-.52,42.14-.51,62.56,0,421.34,10.6,787.96,313.81,882.85,722.51,12.37,53.29,21.51,111.1,22.66,165.8.22,10.62-1.48,22.8,1.56,32.84v34.41c-3.04,9.49-1.35,21.19-1.56,31.28-5.11,246.57-136.35,499.61-320.58,659.21-145.05,125.66-356.49,221.49-550.52,227.53-3.95.12-9.88-1.29-12.51,1.56-1.04-.04-2.09,0-3.13,0-.27,0-2.1-2.22-3.61-1.5l-29.23,3.07h-34.41l-30.51-3.11c-5.45-.35-10.98.32-16.41-.02C401.76,1845.67,13.43,1447.63,3.13,971.19c-.46-21.23-.46-42.89,0-64.12C13.69,418.78,421.3,13.98,908.63,1.56ZM638.08,1446.62l380.89.07c157.76-7.49,303.94-79.4,377.88-222.66,73.9-143.19,76.27-371.92,16.13-520.25-74.65-184.11-248.31-264.82-439.37-272.21l-335.52.06v449.63c0,.17-2.18,2.35-2.35,2.35h-118.08v111.04h120.42v451.97Z"/>
+      <path d="M828.87,1258.95v-264.3h211.13v-111.04h-211.13v-264.3c62.29,2.72,128.15-5.79,189.52,5.19,155.79,27.87,240.03,144.5,246.89,298.92,5.76,129.63-30.03,255.92-158.08,309.68-88.57,37.18-184.58,23.19-278.33,25.85Z"/>
+    </g>
+    
+    <!-- Doge pattern -->
+    <pattern id="doge-pattern" x="0" y="0" width="400" height="400" patternUnits="userSpaceOnUse">
+      <!-- Row 1 -->
+      <use href="#doge" transform="translate(0, 0) scale(0.05)" fill="#FFFFFF" fill-opacity="0.1"/>
+      <use href="#doge" transform="translate(200, 0) scale(0.05)" fill="#FFFFFF" fill-opacity="0.1"/>
+      <use href="#doge" transform="translate(400, 0) scale(0.05)" fill="#FFFFFF" fill-opacity="0.1"/>
+      
+      <!-- Row 2 (offset) -->
+      <use href="#doge" transform="translate(100, 200) scale(0.05)" fill="#FFFFFF" fill-opacity="0.1"/>
+      <use href="#doge" transform="translate(300, 200) scale(0.05)" fill="#FFFFFF" fill-opacity="0.1"/>
+      
+      <!-- Row 3 -->
+      <use href="#doge" transform="translate(0, 400) scale(0.05)" fill="#FFFFFF" fill-opacity="0.1"/>
+      <use href="#doge" transform="translate(200, 400) scale(0.05)" fill="#FFFFFF" fill-opacity="0.1"/>
+      <use href="#doge" transform="translate(400, 400) scale(0.05)" fill="#FFFFFF" fill-opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#2A2A2A"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Doge pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#doge-pattern)"/>
+</svg> 

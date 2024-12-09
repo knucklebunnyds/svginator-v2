@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="background" version="1.1" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Traditional plaid pattern -->
+    <pattern id="plaid-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Main thick bands -->
+      <rect x="0" y="0" width="50" height="100" fill="#FFFFFF" fill-opacity="0.08"/>
+      <rect x="0" y="0" width="100" height="50" fill="#FFFFFF" fill-opacity="0.08"/>
+      <!-- Secondary bands -->
+      <rect x="40" y="0" width="20" height="100" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="0" y="40" width="100" height="20" fill="#FFFFFF" fill-opacity="0.06"/>
+      <!-- Thin accent lines -->
+      <line x1="10" y1="0" x2="10" y2="100" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1"/>
+      <line x1="90" y1="0" x2="90" y2="100" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1"/>
+      <line x1="0" y1="10" x2="100" y2="10" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1"/>
+      <line x1="0" y1="90" x2="100" y2="90" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1"/>
+      <!-- Intersection highlights -->
+      <rect x="40" y="40" width="20" height="20" fill="#FFFFFF" fill-opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#008080"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Plaid pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#plaid-pattern)"/>
+</svg> 

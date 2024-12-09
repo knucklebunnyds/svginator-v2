@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Diamond grid pattern -->
+    <pattern id="diamond-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <!-- Diamond shape -->
+      <path d="M20 0 L40 20 L20 40 L0 20 Z" 
+            fill="none" 
+            stroke="#FFFFFF" 
+            stroke-width="1" 
+            stroke-opacity="0.12"/>
+      <!-- Inner diamond -->
+      <path d="M20 10 L30 20 L20 30 L10 20 Z" 
+            fill="none" 
+            stroke="#FFFFFF" 
+            stroke-width="0.5" 
+            stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#2A2A2A"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Diamond pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#diamond-pattern)"/>
+</svg>

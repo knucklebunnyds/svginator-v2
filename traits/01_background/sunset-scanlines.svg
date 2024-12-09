@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="background" version="1.1" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Starburst pattern -->
+    <pattern id="starburst-pattern" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
+      <!-- Radiating lines -->
+      <path d="M80 80 L160 80 M80 80 L0 80" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.12"/>
+      <path d="M80 80 L80 160 M80 80 L80 0" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.12"/>
+      <path d="M80 80 L140 140 M80 80 L20 20" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.1"/>
+      <path d="M80 80 L140 20 M80 80 L20 140" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.1"/>
+      <path d="M80 80 L150 50 M80 80 L10 110" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.08"/>
+      <path d="M80 80 L150 110 M80 80 L10 50" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.08"/>
+      <!-- Concentric circles -->
+      <circle cx="80" cy="80" r="40" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.1"/>
+      <circle cx="80" cy="80" r="60" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.08"/>
+      <circle cx="80" cy="80" r="20" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#FF4500"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Starburst pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#starburst-pattern)"/>
+</svg>

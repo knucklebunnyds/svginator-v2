@@ -1,0 +1,69 @@
+/* SVG Theme System */
+:root {
+    /* Default theme */
+    --theme-outline: #2E0854;
+    --theme-fill: #FEFAE0;
+    --theme-shading: #9B6B9E;
+    --theme-opacity: 0.45;
+}
+
+[data-theme="dark"] {
+    --theme-outline: #000000;
+    --theme-fill: #ffffff;
+    --theme-shading: #333333;
+    --theme-opacity: 0.7;
+}
+
+[data-theme="neon"] {
+    --theme-outline: #00ff00;
+    --theme-fill: #ff00ff;
+    --theme-shading: #0000ff;
+    --theme-opacity: 0.6;
+}
+
+[data-theme="retro"] {
+    --theme-outline: #ff4400;
+    --theme-fill: #ffcc00;
+    --theme-shading: #cc3300;
+    --theme-opacity: 0.5;
+}
+
+[data-theme="sepia"] {
+    --theme-outline: #704214;
+    --theme-fill: #FFF5E1;
+    --theme-shading: #8B4513;
+    --theme-opacity: 0.4;
+}
+
+[data-theme="popart"] {
+    --theme-outline: #FF1493;
+    --theme-fill: #FFFF00;
+    --theme-shading: #00FFFF;
+    --theme-opacity: 0.5;
+}
+
+[data-theme="apocalypse"] {
+    --theme-outline: #2B1111;
+    --theme-fill: #F5E6D3;
+    --theme-shading: #8B2635;
+    --theme-opacity: 0.6;
+}
+
+/* Apply theme colors to semantic classes */
+.outline { 
+    fill: var(--theme-outline) !important;
+}
+
+.fill { 
+    fill: var(--theme-fill) !important;
+}
+
+.shading { 
+    fill: var(--theme-shading) !important;
+    opacity: var(--theme-opacity) !important;
+}
+
+/* Make theme transitions smooth */
+.outline, .fill, .shading {
+    transition: fill 0.3s ease, opacity 0.3s ease;
+} 

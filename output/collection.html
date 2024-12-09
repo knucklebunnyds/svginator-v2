@@ -1,25 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>KBDS Knuckleheads - Collection Preview</title>
-    <link rel="icon" type="image/svg+xml" href="img/KBDS-logo.svg">
-    <!-- External CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBDS Doge Knuckleheads Collection</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/collection.css">
-    <!-- Original CSS - Commented out for testing -->
-    <!--
+    <link rel="stylesheet" href="css/info-modal.css">
+    <link rel="stylesheet" href="css/kbds-dialog.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/semantic.css">
+    <link rel="icon" type="image/svg+xml" href="img/KBDS-logo.svg">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/svg-themes.css">
     <style>
-        /* Reset and base styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        /* SVG Theme System */
+        :root {
+            /* Default theme */
+            --theme-outline: #2E0854;
+            --theme-fill: #FEFAE0;
+            --theme-shading: #9B6B9E;
+            --theme-opacity: 0.45;
         }
 
-        // ... rest of original CSS ...
+        [data-theme="dark"] {
+            --theme-outline: #000000;
+            --theme-fill: #ffffff;
+            --theme-shading: #333333;
+            --theme-opacity: 0.7;
+        }
+
+        [data-theme="neon"] {
+            --theme-outline: #00ff00;
+            --theme-fill: #ff00ff;
+            --theme-shading: #0000ff;
+            --theme-opacity: 0.6;
+        }
+
+        [data-theme="retro"] {
+            --theme-outline: #ff4400;
+            --theme-fill: #ffcc00;
+            --theme-shading: #cc3300;
+            --theme-opacity: 0.5;
+        }
+
+        [data-theme="sepia"] {
+            --theme-outline: #704214;
+            --theme-fill: #FFF5E1;
+            --theme-shading: #8B4513;
+            --theme-opacity: 0.4;
+        }
+
+        [data-theme="popart"] {
+            --theme-outline: #FF1493;
+            --theme-fill: #FFFF00;
+            --theme-shading: #00FFFF;
+            --theme-opacity: 0.5;
+        }
+
+        [data-theme="apocalypse"] {
+            --theme-outline: #2B1111;
+            --theme-fill: #F5E6D3;
+            --theme-shading: #8B2635;
+            --theme-opacity: 0.6;
+        }
+
+        /* Apply theme colors to semantic classes */
+        .outline { 
+            fill: var(--theme-outline) !important;
+        }
+
+        .fill { 
+            fill: var(--theme-fill) !important;
+        }
+
+        .shading { 
+            fill: var(--theme-shading) !important;
+            opacity: var(--theme-opacity) !important;
+        }
+
+        /* Make theme transitions smooth */
+        .outline, .fill, .shading {
+            transition: fill 0.3s ease, opacity 0.3s ease;
+        }
     </style>
-    -->
 </head>
 <body>
     <div class="header">
@@ -66,7 +131,7 @@
                 </div>
 
                 <select class="theme-select" onchange="setTheme(this.value)">
-                    <option value="">Select Theme</option>
+                    <option value="" selected>Select Theme</option>
                     <option value="none">No Theme</option>
                     <option value="default">Theme: Default</option>
                     <option value="dark">Theme: Dark</option>
@@ -192,10 +257,12 @@
         </a>
     </footer>
 
-    <div id="info-modal" class="info-modal">
+    <!-- Original Info Modal (Commented Out) -->
+    <!--
+    <div id="info-modal" class="project-info-modal modal">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeInfoModal()">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <button class="modal-close close-modal" onclick="closeInfoModal()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M18 6L6 18M6 6l12 12"/>
                 </svg>
             </button>
@@ -206,27 +273,80 @@
             <div class="modal-body">
                 <p>Welcome to the <span class="highlight">first-ever interactive DOGE inscription collection</span> of its kind! The KBDS Doge Knuckleheads represent a groundbreaking fusion of blockchain technology and dynamic SVG artistry.</p>
                 
-                <h3>Collection Details</h3>
-                <ul>
-                    <li><strong>Total Supply:</strong> 300 Unique Knuckleheads</li>
-                    <li><strong>Format:</strong> Interactive SVG with Dynamic Theming</li>
-                    <li><strong>Traits:</strong> 8 Categories with Multiple Variations</li>
-                    <li><strong>Special Feature:</strong> Live Theme Switching</li>
-                </ul>
+                <div class="collection-details">
+                    <h3>Collection Details</h3>
+                    <ul>
+                        <li><strong>Total Supply:</strong> 300 Unique Knuckleheads</li>
+                        <li><strong>Format:</strong> Interactive SVG with Dynamic Theming</li>
+                        <li><strong>Traits:</strong> 8 Categories with Multiple Variations</li>
+                        <li><strong>Special Feature:</strong> Live Theme Switching</li>
+                    </ul>
+                </div>
 
-                <h3>Revolutionary Features</h3>
-                <ul>
-                    <li><span class="highlight">First Ever Custom Coloring:</span> Holders can personalize their NFT's colors - a groundbreaking feature never before seen in Web3 on any blockchain</li>
-                    <li>Interactive color themes that can be changed in real-time</li>
-                    <li>Fully on-chain SVG artwork</li>
-                    <li>Animated background options</li>
-                    <li>Semantic SVG structure for developer flexibility</li>
-                </ul>
+                <div class="revolutionary-features">
+                    <h3>Revolutionary Features</h3>
+                    <ul>
+                        <li><span class="highlight">First Ever Custom Coloring:</span> Holders can personalize their NFT's colors - a groundbreaking feature never before seen in Web3 on any blockchain</li>
+                        <li>Interactive color themes that can be changed in real-time</li>
+                        <li>Fully on-chain SVG artwork</li>
+                        <li>Animated background options</li>
+                        <li>Semantic SVG structure for developer flexibility</li>
+                    </ul>
+                </div>
 
                 <p>Each Knucklehead is a unique combination of traits, with some featuring rare animated backgrounds and special attributes. As the first collection to offer custom coloring capabilities to holders, KBDS Doge Knuckleheads sets a new standard for interactive NFTs in the Web3 space.</p>
             </div>
         </div>
     </div>
+    -->
+
+    <!-- New Collection Info Modal -->
+    <div id="collection-info-dialog" class="kbds-dialog">
+        <div class="kbds-dialog__container">
+            <button class="kbds-dialog__close" onclick="closeCollectionInfo()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+            <div class="kbds-dialog__header">
+                <img src="img/KBDS-logo.svg" alt="KBDS Logo" class="kbds-dialog__logo">
+                <h2 class="kbds-dialog__title">KBDS Doge Knuckleheads</h2>
+            </div>
+            <div class="kbds-dialog__content">
+                <p class="kbds-dialog__intro">
+                    Welcome to the <span class="kbds-dialog__highlight">first-ever interactive DOGE inscription collection</span> of its kind! The KBDS Doge Knuckleheads represent a groundbreaking fusion of blockchain technology and dynamic SVG artistry.
+                </p>
+                
+                <div class="kbds-dialog__section">
+                    <h3 class="kbds-dialog__subtitle">Collection Details</h3>
+                    <ul class="kbds-dialog__list">
+                        <li class="kbds-dialog__list-item"><strong>Total Supply:</strong> 300 Unique Knuckleheads</li>
+                        <li class="kbds-dialog__list-item"><strong>Format:</strong> Interactive SVG with Dynamic Theming</li>
+                        <li class="kbds-dialog__list-item"><strong>Traits:</strong> 8 Categories with Multiple Variations</li>
+                        <li class="kbds-dialog__list-item"><strong>Special Feature:</strong> Live Theme Switching</li>
+                    </ul>
+                </div>
+
+                <div class="kbds-dialog__section">
+                    <h3 class="kbds-dialog__subtitle">Revolutionary Features</h3>
+                    <ul class="kbds-dialog__list">
+                        <li class="kbds-dialog__list-item">
+                            <span class="kbds-dialog__highlight">First Ever Custom Coloring:</span> Holders can personalize their NFT's colors - a groundbreaking feature never before seen in Web3 on any blockchain
+                        </li>
+                        <li class="kbds-dialog__list-item">Interactive color themes that can be changed in real-time</li>
+                        <li class="kbds-dialog__list-item">Fully on-chain SVG artwork</li>
+                        <li class="kbds-dialog__list-item">Animated background options</li>
+                        <li class="kbds-dialog__list-item">Semantic SVG structure for developer flexibility</li>
+                    </ul>
+                </div>
+
+                <p class="kbds-dialog__outro">
+                    Each Knucklehead is a unique combination of traits, with some featuring rare animated backgrounds and special attributes. As the first collection to offer custom coloring capabilities to holders, KBDS Doge Knuckleheads sets a new standard for interactive NFTs in the Web3 space.
+                </p>
+            </div>
+        </div>
+    </div>
+
     <div id="gallery-modal" class="modal">
         <div class="modal-content">
             <button class="modal-close">
@@ -240,60 +360,52 @@
         </div>
     </div>
     <div id="expanded-image-overlay" class="expanded-image-overlay">
-        <button class="expanded-image-close">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path d="M18 6L6 18M6 6l12 12"/>
-            </svg>
-        </button>
-        <img src="" alt="Expanded NFT" id="expanded-image">
+        <div class="expanded-image-container">
+            <button class="modal-close" onclick="closeExpandedImage()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
     </div>
     <script>
-        const THEMES = {
-            default: {
-                outline: '#2E0854',
-                fill: '#FEFAE0',
-                shading: '#9B6B9E',
-                opacity: '0.45'
-            },
-            dark: {
-                outline: '#000000',
-                fill: '#ffffff',
-                shading: '#333333',
-                opacity: '0.7'
-            },
-            neon: {
-                outline: '#00ff00',
-                fill: '#ff00ff',
-                shading: '#0000ff',
-                opacity: '0.6'
-            },
-            retro: {
-                outline: '#ff4400',
-                fill: '#ffcc00',
-                shading: '#cc3300',
-                opacity: '0.5'
-            },
-            sepia: {
-                outline: '#704214',
-                fill: '#FFF5E1',
-                shading: '#8B4513',
-                opacity: '0.4'
-            },
-            popart: {
-                outline: '#FF1493',
-                fill: '#FFFF00',
-                shading: '#00FFFF',
-                opacity: '0.5'
-            },
-            apocalypse: {
-                outline: '#2B1111',
-                fill: '#F5E6D3',
-                shading: '#8B2635',
-                opacity: '0.6'
-            }
-        };
-
+        // Theme System
         let currentTheme = null;
+
+        function setTheme(theme) {
+            if (!theme || theme === '') {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.removeItem('theme');
+                const themeSelect = document.querySelector('.theme-select');
+                if (themeSelect) {
+                    themeSelect.value = '';
+                }
+            } else {
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
+            }
+        }
+
+        // Load saved theme
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('theme');
+            const themeSelect = document.querySelector('.theme-select');
+            
+            // Only set a theme if one was explicitly saved
+            if (savedTheme && savedTheme !== '' && savedTheme !== 'none') {
+                setTheme(savedTheme);
+                if (themeSelect) {
+                    themeSelect.value = savedTheme;
+                }
+            } else {
+                // Ensure the select shows the placeholder
+                if (themeSelect) {
+                    themeSelect.value = '';
+                }
+                document.documentElement.removeAttribute('data-theme');
+            }
+        });
+
         let currentNFTIndex = 0;
         let currentPage = 1;
         const itemsPerPage = 24;
@@ -301,6 +413,33 @@
         let allNFTs = [];
         let traitRarities = {};
         
+        // Add at the beginning of the script section
+        let traitPercentages = {};
+
+        // Add this function to calculate percentages
+        function calculateTraitPercentages() {
+            const counts = {};
+            const total = allNFTs.length;
+            
+            allNFTs.forEach(nft => {
+                nft.attributes.forEach(attr => {
+                    const type = attr.trait_type.replace(/^\d+_/, '');
+                    const value = attr.value;
+                    
+                    if (!counts[type]) counts[type] = {};
+                    if (!counts[type][value]) counts[type][value] = 0;
+                    counts[type][value]++;
+                });
+            });
+            
+            Object.keys(counts).forEach(type => {
+                traitPercentages[type] = {};
+                Object.keys(counts[type]).forEach(value => {
+                    traitPercentages[type][value] = ((counts[type][value] / total) * 100).toFixed(1);
+                });
+            });
+        }
+
         // Modal key handling
         function handleModalKeyPress(e) {
             const modal = document.getElementById('gallery-modal');
@@ -331,7 +470,10 @@
         function closeModal() {
             const modal = document.getElementById('gallery-modal');
             const expandedOverlay = document.getElementById('expanded-image-overlay');
-            modal.style.display = 'none';
+            modal.classList.remove('active');
+            setTimeout(() => {
+                modal.style.display = 'none';
+            }, 300); // Match the transition duration
             expandedOverlay.style.display = 'none';
             document.body.style.overflow = '';
             document.removeEventListener('keydown', handleModalKeyPress);
@@ -361,50 +503,6 @@
             if (filterToggle && filterControls) {
                 filterToggle.classList.toggle('active');
                 filterControls.classList.toggle('active');
-            }
-        }
-
-        // Theme handling
-        function setTheme(theme) {
-            console.log('Setting theme to:', theme);
-            const themeSelect = document.querySelector('.theme-select');
-            if (themeSelect) {
-                themeSelect.value = theme || '';
-            }
-            
-            // Set theme on document
-            if (theme && theme !== 'none') {
-                document.documentElement.setAttribute('data-theme', theme);
-            } else {
-                document.documentElement.removeAttribute('data-theme');
-            }
-            currentTheme = theme !== 'none' ? theme : null;
-            
-            // Update all SVGs in the gallery
-            const svgs = document.querySelectorAll('.nft-card svg');
-            svgs.forEach(svg => {
-                if (theme && theme !== 'none') {
-                    updateSVGTheme(svg, theme);
-                } else {
-                    // Reset to default inline styles
-                    svg.querySelectorAll('[class*="outline"], [class*="fill"], [class*="shading"]').forEach(el => {
-                        el.style.fill = '';
-                        el.style.opacity = '';
-                    });
-                }
-            });
-            
-            // Update modal SVG if open
-            const modalSvg = document.querySelector('.modal-image svg');
-            if (modalSvg) {
-                if (theme && theme !== 'none') {
-                    updateSVGTheme(modalSvg, theme);
-                } else {
-                    modalSvg.querySelectorAll('[class*="outline"], [class*="fill"], [class*="shading"]').forEach(el => {
-                        el.style.fill = '';
-                        el.style.opacity = '';
-                    });
-                }
             }
         }
 
@@ -509,6 +607,8 @@
 
                 const results = await Promise.all(nftPromises);
                 allNFTs = results.filter(nft => nft !== null && nft.id);
+                calculateTraitPercentages(); // Add this line
+                
                 console.log('Loaded NFTs:', allNFTs.length);
                 
                 // Generate rarity report
@@ -758,13 +858,16 @@
             const modal = document.getElementById('gallery-modal');
             if (!modal) return;
             
-            // Format trait type to remove numeric prefix and duplicates
             const formattedTraits = nft.attributes
                 .filter(attr => !attr.trait_type.includes('backgrounds/'))
-                .map(attr => ({
-                    trait_type: attr.trait_type.replace(/^\d+_/, ''),
-                    value: attr.value
-                }))
+                .map(attr => {
+                    const type = attr.trait_type.replace(/^\d+_/, '');
+                    return {
+                        trait_type: type,
+                        value: attr.value,
+                        percentage: traitPercentages[type]?.[attr.value] || '0.0'
+                    };
+                })
                 .filter((trait, index, self) => 
                     index === self.findIndex(t => t.trait_type === trait.trait_type)
                 );
@@ -797,24 +900,21 @@
                         <div class="modal-info">
                             <h2>Knucklehead #${nft.id}</h2>
                             <div class="rank">Rank #${nft.rank}</div>
-                        </div>
-                        <div class="trait-list">
-                            ${formattedTraits.map(attr => `
-                                <div class="trait-item">
-                                    <div class="trait-type">${attr.trait_type}</div>
-                                    <div class="trait-value">${attr.value}</div>
-                                </div>
-                            `).join('')}
+                            <div class="trait-list">
+                                ${formattedTraits.map(attr => `
+                                    <div class="trait-item">
+                                        <div class="trait-type">
+                                            ${attr.trait_type}
+                                            <span class="trait-percentage">${attr.percentage}%</span>
+                                        </div>
+                                        <div class="trait-value">${attr.value}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
                         </div>
                     </div>
                 </div>
             `;
-
-            // Add event listener for close button
-            const closeButton = modal.querySelector('.modal-close');
-            if (closeButton) {
-                closeButton.addEventListener('click', closeModal);
-            }
 
             // Load SVG content
             fetch(`images/${nft.id}.svg`)
@@ -835,56 +935,52 @@
                     modalImage.innerHTML = 'Failed to load image';
                 });
 
-            modal.style.display = 'block';
+            // Show modal
+            modal.style.display = 'flex';  // Changed from 'block' to 'flex'
+            modal.classList.add('active');
             document.body.style.overflow = 'hidden';
             currentNFTIndex = filteredNFTs.findIndex(n => n.id === nft.id);
             
-            // Add event listener to close modal when clicking outside
+            // Add event listeners
             modal.addEventListener('click', (e) => {
                 if (e.target === modal) {
                     closeModal();
                 }
             });
             
-            // Add keyboard navigation
+            const closeButton = modal.querySelector('.modal-close');
+            if (closeButton) {
+                closeButton.addEventListener('click', closeModal);
+            }
+            
             document.addEventListener('keydown', handleModalKeyPress);
         }
 
         function zoomImage(element) {
             const overlay = document.getElementById('expanded-image-overlay');
-            if (!overlay) return;
+            const container = overlay.querySelector('.expanded-image-container');
+            if (!overlay || !container) return;
 
             const svg = element.querySelector('svg');
             if (svg) {
                 const svgClone = svg.cloneNode(true);
                 svgClone.style.width = '90vw';
                 svgClone.style.height = '90vh';
+                container.innerHTML = '';  // Clear previous content
+                container.appendChild(svgClone);
                 
-                overlay.innerHTML = `
-                    <button class="expanded-image-close">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M18 6L6 18M6 6l12 12"/>
-                        </svg>
-                    </button>
-                    <div class="expanded-image-container">${svgClone.outerHTML}</div>
+                // Add close button
+                const closeButton = document.createElement('button');
+                closeButton.className = 'modal-close';
+                closeButton.onclick = closeExpandedImage;
+                closeButton.innerHTML = `
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
                 `;
-                
-                // Add event listener for close button
-                const closeButton = overlay.querySelector('.expanded-image-close');
-                if (closeButton) {
-                    closeButton.addEventListener('click', () => {
-                        overlay.style.display = 'none';
-                        document.body.style.overflow = '';
-                    });
-                }
+                container.appendChild(closeButton);
                 
                 overlay.style.display = 'flex';
-                document.body.style.overflow = 'hidden';
-                
-                // Apply current theme to the zoomed SVG if one is set
-                if (currentTheme) {
-                    updateSVGTheme(svgClone, currentTheme);
-                }
             }
         }
 
@@ -1241,27 +1337,15 @@
 
             // Close expanded image on background click
             const expandedOverlay = document.getElementById('expanded-image-overlay');
-            expandedOverlay.addEventListener('click', function(e) {
-                if (e.target === this) {
-                    this.style.display = 'none';
-                    document.body.style.overflow = '';
-                }
-            });
+            if (expandedOverlay) {
+                expandedOverlay.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        this.style.display = 'none';
+                        document.body.style.overflow = '';
+                    }
+                });
+            }
 
-            // Close modals on escape key
-            document.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape') {
-                    const galleryModal = document.getElementById('gallery-modal');
-                    const expandedOverlay = document.getElementById('expanded-image-overlay');
-                    galleryModal.style.display = 'none';
-                    expandedOverlay.style.display = 'none';
-                    document.body.style.overflow = '';
-                }
-            });
-        });
-
-        // Initialize event listeners
-        document.addEventListener('DOMContentLoaded', function() {
             // Info modal close button
             const infoModalCloseBtn = document.querySelector('.info-modal .close-modal');
             if (infoModalCloseBtn) {
@@ -1278,12 +1362,29 @@
                 });
             }
 
-            // Close info modal on escape key
-            document.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape' && infoModal && infoModal.classList.contains('active')) {
+            // Initialize gallery size
+            const savedSize = localStorage.getItem('gallerySize');
+            if (savedSize) {
+                sizeToggle(savedSize);
+            }
+        });
+
+        // Close modals on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                const galleryModal = document.getElementById('gallery-modal');
+                const expandedOverlay = document.getElementById('expanded-image-overlay');
+                const infoModal = document.getElementById('info-modal');
+                
+                if (expandedOverlay && expandedOverlay.style.display === 'flex') {
+                    expandedOverlay.style.display = 'none';
+                } else if (galleryModal && galleryModal.style.display === 'block') {
+                    galleryModal.style.display = 'none';
+                } else if (infoModal && infoModal.classList.contains('active')) {
                     closeInfoModal();
                 }
-            });
+                document.body.style.overflow = '';
+            }
         });
 
         let isScrollMode = false;
@@ -1506,6 +1607,160 @@
             initializeUI();
             // ... rest of initialization code
         });
+
+        // Update the modal template
+        const modalTemplate = (nft) => {
+            const formattedTraits = nft.attributes.map(attr => ({
+                ...attr,
+                percentage: traitPercentages[attr.trait_type][attr.value]
+            }));
+
+            return `
+                <div class="modal-overlay" id="gallery-modal">
+                    <div class="modal-content">
+                        <button class="modal-close">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 6L6 18M6 6l12 12"/>
+                            </svg>
+                        </button>
+                        <div class="modal-body">
+                            <div class="modal-image-container">
+                                <div class="modal-image">
+                                    ${nft.svg}
+                                </div>
+                                <div class="modal-nav">
+                                    <button class="nav-button" id="modalPrev">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M15 18l-6-6 6-6"/>
+                                        </svg>
+                                    </button>
+                                    <button class="nav-button" id="modalNext">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M9 18l6-6-6-6"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal-info">
+                                <h2>Knucklehead #${nft.id}</h2>
+                                <div class="rank">Rank #${nft.rank}</div>
+                            </div>
+                            <div class="trait-list">
+                                ${formattedTraits.map(attr => `
+                                    <div class="trait-item">
+                                        <div class="trait-type">
+                                            ${attr.trait_type}
+                                            <span class="trait-percentage">${attr.percentage}%</span>
+                                        </div>
+                                        <div class="trait-value">${attr.value}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        };
+
+        // Add this function to your JavaScript
+        function closeExpandedImage() {
+            const overlay = document.getElementById('expanded-image-overlay');
+            if (overlay) {
+                overlay.style.display = 'none';
+            }
+        }
+
+        // Add before the closing </ script> tag
+        function sizeToggle(size) {
+            const gallery = document.querySelector('.nft-gallery');
+            if (!gallery) return;
+            
+            // Remove existing size classes
+            gallery.classList.remove('small', 'large', 'full');
+            
+            // Add new size class if specified
+            if (size) {
+                gallery.classList.add(size);
+            }
+            
+            // Store preference
+            localStorage.setItem('gallerySize', size);
+        }
+
+        // Initialize size from localStorage
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedSize = localStorage.getItem('gallerySize');
+            if (savedSize) {
+                sizeToggle(savedSize);
+            }
+        });
+
+        // Size toggle function
+        function sizeToggle() {
+            const gallery = document.querySelector('.nft-gallery');
+            if (gallery) {
+                gallery.classList.toggle('expanded');
+            }
+        }
+
+        // Theme switch function
+        function switchTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+        }
+
+        // Wait for DOM to be loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize theme
+            const themeSelect = document.querySelector('.theme-select');
+            if (themeSelect) {
+                const savedTheme = localStorage.getItem('theme');
+                if (savedTheme) {
+                    themeSelect.value = savedTheme;
+                    switchTheme(savedTheme);
+                }
+                
+                themeSelect.addEventListener('change', (e) => {
+                    const theme = e.target.value;
+                    switchTheme(theme);
+                    localStorage.setItem('theme', theme);
+                });
+            }
+            
+            // Initialize gallery size
+            const savedSize = localStorage.getItem('gallerySize');
+            if (savedSize) {
+                sizeToggle(savedSize);
+            }
+        });
+
+        // Gallery size management
+        function handleGallerySize(size) {
+            const gallery = document.querySelector('.nft-gallery');
+            if (!gallery) return;
+            
+            // Remove existing size classes
+            gallery.classList.remove('small', 'large', 'full');
+            
+            // Add new size class if specified
+            if (size) {
+                gallery.classList.add(size);
+            }
+            
+            // Store preference
+            localStorage.setItem('gallerySize', size);
+        }
+
+        // Theme management
+        function switchTheme(theme) {
+            if (theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
+            } else {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.removeItem('theme');
+            }
+        }
     </script>
+    <script src="js/info-modal.js"></script>
 </body>
 </html> 

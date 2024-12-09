@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="background" version="1.1" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Pixel grid pattern -->
+    <pattern id="pixel-pattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <!-- Large pixels -->
+      <rect x="0" y="0" width="20" height="20" fill="#FFFFFF" fill-opacity="0.15"/>
+      <rect x="40" y="0" width="20" height="20" fill="#FFFFFF" fill-opacity="0.12"/>
+      <rect x="20" y="20" width="20" height="20" fill="#FFFFFF" fill-opacity="0.1"/>
+      <rect x="60" y="20" width="20" height="20" fill="#FFFFFF" fill-opacity="0.15"/>
+      <!-- Medium pixels -->
+      <rect x="20" y="40" width="10" height="10" fill="#FFFFFF" fill-opacity="0.08"/>
+      <rect x="50" y="40" width="10" height="10" fill="#FFFFFF" fill-opacity="0.1"/>
+      <rect x="40" y="60" width="10" height="10" fill="#FFFFFF" fill-opacity="0.12"/>
+      <rect x="70" y="60" width="10" height="10" fill="#FFFFFF" fill-opacity="0.08"/>
+      <!-- Small pixels -->
+      <rect x="0" y="40" width="5" height="5" fill="#FFFFFF" fill-opacity="0.15"/>
+      <rect x="75" y="40" width="5" height="5" fill="#FFFFFF" fill-opacity="0.12"/>
+      <rect x="10" y="70" width="5" height="5" fill="#FFFFFF" fill-opacity="0.1"/>
+      <rect x="65" y="70" width="5" height="5" fill="#FFFFFF" fill-opacity="0.15"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#808080"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Pixel grid pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#pixel-pattern)"/>
+</svg>

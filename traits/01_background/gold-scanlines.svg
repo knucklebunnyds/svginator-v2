@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<svg id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    <pattern id="scanline-pattern" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="4" x2="8" y2="4" stroke="#FFFFFF" stroke-width="4.0" stroke-opacity="0.25"/>
+    </pattern>
+    <pattern id="artdeco-pattern" x="0" y="0" width="160" height="160" patternUnits="userSpaceOnUse">
+      <!-- Fan shapes -->
+      <path d="M80 80 L120 40 A60 60 0 0 1 120 120 Z" fill="#FFFFFF" fill-opacity="0.15"/>
+      <path d="M80 80 L40 40 A60 60 0 0 0 40 120 Z" fill="#FFFFFF" fill-opacity="0.15"/>
+      <!-- Geometric borders -->
+      <path d="M0 60 L20 80 L0 100 M160 60 L140 80 L160 100" 
+            stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.12"/>
+      <!-- Chevron details -->
+      <path d="M60 0 L80 20 L100 0 M60 160 L80 140 L100 160" 
+            stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.12"/>
+      <!-- Center medallion -->
+      <circle cx="80" cy="80" r="20" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.2"/>
+      <circle cx="80" cy="80" r="10" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.15"/>
+      <!-- Decorative lines -->
+      <line x1="0" y1="80" x2="160" y2="80" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1"/>
+      <line x1="80" y1="0" x2="80" y2="160" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#ddb305"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Pattern overlay with blend mode -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#scanline-pattern)"/>
+</svg>

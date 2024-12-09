@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="background" version="1.1" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Subtle blend filter -->
+    <filter id="softBlend">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.5 0" result="soften"/>
+      <feBlend in="soften" in2="SourceGraphic" mode="soft-light"/>
+    </filter>
+    
+    <!-- Radial ray pattern -->
+    <pattern id="ray-pattern" x="0" y="0" width="240" height="240" patternUnits="userSpaceOnUse">
+      <!-- Primary rays -->
+      <path d="M120 120 L240 0 M120 120 L0 0" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.08" filter="url(#softBlend)"/>
+      <path d="M120 120 L240 240 M120 120 L0 240" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.08" filter="url(#softBlend)"/>
+      <path d="M120 120 L0 120 M120 120 L240 120" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.08" filter="url(#softBlend)"/>
+      <path d="M120 120 L120 0 M120 120 L120 240" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.08" filter="url(#softBlend)"/>
+      <!-- Secondary rays -->
+      <path d="M120 120 L210 30 M120 120 L30 30" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.06" filter="url(#softBlend)"/>
+      <path d="M120 120 L210 210 M120 120 L30 210" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.06" filter="url(#softBlend)"/>
+      <!-- Tertiary rays -->
+      <path d="M120 120 L180 60 M120 120 L60 60" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.04" filter="url(#softBlend)"/>
+      <path d="M120 120 L180 180 M120 120 L60 180" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.04" filter="url(#softBlend)"/>
+      <!-- Center glow -->
+      <circle cx="120" cy="120" r="20" fill="#FFFFFF" fill-opacity="0.06"/>
+      <circle cx="120" cy="120" r="10" fill="#FFFFFF" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#DC143C"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Radial ray pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#ray-pattern)"/>
+</svg>

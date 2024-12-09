@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="background" version="1.1" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Simple weave pattern -->
+    <pattern id="weave-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <!-- Horizontal lines -->
+      <line x1="0" y1="10" x2="40" y2="10" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.05"/>
+      <line x1="0" y1="30" x2="40" y2="30" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.05"/>
+      <!-- Vertical lines -->
+      <line x1="10" y1="0" x2="10" y2="40" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.05"/>
+      <line x1="30" y1="0" x2="30" y2="40" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.05"/>
+      <!-- Intersection dots -->
+      <circle cx="10" cy="10" r="2" fill="#FFFFFF" fill-opacity="0.075"/>
+      <circle cx="30" cy="10" r="2" fill="#FFFFFF" fill-opacity="0.075"/>
+      <circle cx="10" cy="30" r="2" fill="#FFFFFF" fill-opacity="0.075"/>
+      <circle cx="30" cy="30" r="2" fill="#FFFFFF" fill-opacity="0.075"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#202733"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Weave pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#weave-pattern)"/>
+</svg> 

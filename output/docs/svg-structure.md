@@ -135,3 +135,123 @@ For technical support or questions about the SVG structure:
 - Email: support@knucklebunnydeathsquad.com
 - Discord: [KBDS Discord Server]
 - GitHub: [KBDS Repository] 
+
+## Background Structure
+Backgrounds follow a specific structure to ensure consistent rendering and theme compatibility:
+
+### Base Structure
+```svg
+<svg width="2048" height="2048" viewBox="0 0 2048 2048">
+    <!-- Base color rectangle -->
+    <rect width="100%" height="100%" fill="[BASE_COLOR]"/>
+    
+    <!-- Universal gradient overlay -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="white" stop-opacity="0.4"/>
+        <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <rect width="100%" height="100%" fill="url(#glow)" style="mix-blend-mode: soft-light"/>
+    
+    <!-- Pattern elements with controlled opacity -->
+    <g class="pattern" opacity="[PATTERN_OPACITY]">
+        <!-- Pattern-specific elements -->
+    </g>
+</svg>
+```
+
+### Class Structure
+Each background SVG uses semantic classes that match ID prefixes for consistent styling and interactivity:
+1. `.color`
+   - Applied to the base color rectangle
+   - Controls main background color
+   - Target for theme-based color transitions
+
+2. `.gradient`
+   - Applied to the gradient overlay
+   - Controls glow effect and intensity
+   - Can be toggled for different visual states
+
+3. `.pattern`
+   - Applied to pattern elements and groups
+   - Controls pattern visibility and animations
+   - Used for interactive effects and transitions
+
+4. `.design`
+   - Applied to additional background elements
+   - Used for supplementary visual elements
+   - Maintains consistent styling with pattern elements
+
+Example with proper class usage:
+```svg
+<svg width="2048" height="2048" viewBox="0 0 2048 2048">
+    <rect class="color" id="color-navy" width="100%" height="100%" fill="#1E4FCC"/>
+    <rect class="gradient" id="gradient-glow" width="100%" height="100%" fill="url(#glow)" style="mix-blend-mode: soft-light"/>
+    <g class="pattern" id="pattern-circles">
+        <!-- Pattern elements -->
+    </g>
+    <g class="design" id="design-overlay">
+        <!-- Additional design elements -->
+    </g>
+</svg>
+```
+
+### ID Structure
+Specific IDs are used for unique elements and gradients:
+1. `color-[name]`
+   - Unique identifier for base rectangle
+   - Example: `color-navy`
+
+2. `gradient-[name]`
+   - Identifies the gradient definition
+   - Example: `gradient-glow`
+
+3. `pattern-[name]`
+   - Identifies the pattern group or elements
+   - Example: `pattern-circles`
+
+4. `design-[name]`
+   - Identifies additional background elements
+   - Example: `design-overlay`
+
+5. Pattern-specific IDs (when needed)
+   - `pattern-[name]-[number]` for repeating elements
+   - Example: `pattern-ray-1`, `pattern-circle-2`
+   - Used for targeting individual pattern elements
+
+### Naming Convention
+Backgrounds follow a color-pattern naming scheme:
+- `[color]-[pattern].svg` (e.g., navy-circles.svg, crimson-rays.svg)
+- Color prefix indicates base background color
+- Pattern suffix describes the overlay design
+
+### Pattern Types
+1. Geometric Patterns
+   - Circles, rays, grids, plaid
+   - Consistent spacing and scale
+   - Opacity range: 0.05 - 0.25
+
+2. Texture Patterns
+   - Scanlines, halftone, dots
+   - Even distribution across viewport
+   - Subtle blend modes
+
+3. Special Patterns
+   - Custom designs (e.g., doge pattern)
+   - Full coverage of 2048x2048 viewport
+   - Non-tiling designs
+
+### Best Practices
+1. Gradient Usage
+   - Always use white for gradient overlays
+   - Maintain soft-light blend mode
+   - 60% radius for consistent glow effect
+
+2. Pattern Opacity
+   - Keep patterns subtle (typically 0.05-0.25 opacity)
+   - Test at different scales
+   - Consider final rendered size
+
+3. Viewport Handling
+   - Maintain 2048x2048 dimensions
+   - Ensure patterns scale appropriately
+   - Test pattern visibility at various sizes

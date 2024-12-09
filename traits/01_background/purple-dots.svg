@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Dot pattern -->
+    <pattern id="dot-pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="15" fill="#FFFFFF" fill-opacity="0.1"/>
+      <circle cx="0" cy="0" r="15" fill="#FFFFFF" fill-opacity="0.1"/>
+      <circle cx="60" cy="0" r="15" fill="#FFFFFF" fill-opacity="0.1"/>
+      <circle cx="0" cy="60" r="15" fill="#FFFFFF" fill-opacity="0.1"/>
+      <circle cx="60" cy="60" r="15" fill="#FFFFFF" fill-opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#800080"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#dot-pattern)"/>
+</svg>
+
+</```rewritten_file>

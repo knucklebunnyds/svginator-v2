@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="background" version="1.1" viewBox="0 0 2048 2048" class="background">
+  <defs>
+    <radialGradient id="glow-gradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Sunburst pattern -->
+    <pattern id="sunburst-pattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <!-- Center rays -->
+      <path d="M100 100 L200 100 M100 100 L0 100" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.15"/>
+      <path d="M100 100 L100 200 M100 100 L100 0" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.15"/>
+      <!-- Diagonal rays -->
+      <path d="M100 100 L171 171 M100 100 L29 29" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.12"/>
+      <path d="M100 100 L171 29 M100 100 L29 171" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.12"/>
+      <!-- Additional rays -->
+      <path d="M100 100 L186 50 M100 100 L14 150" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.1"/>
+      <path d="M100 100 L186 150 M100 100 L14 50" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.1"/>
+      <!-- Subtle connecting arcs -->
+      <circle cx="100" cy="100" r="30" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+      <circle cx="100" cy="100" r="60" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base color layer -->
+  <rect id="color-bg" width="2048" height="2048" fill="#FF6B00"/>
+  
+  <!-- Radial gradient glow -->
+  <rect id="gradient-glow" width="2048" height="2048" fill="url(#glow-gradient)"/>
+  
+  <!-- Sunburst pattern overlay -->
+  <rect id="pattern-overlay" width="2048" height="2048" fill="url(#sunburst-pattern)"/>
+</svg>

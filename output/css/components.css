@@ -1,80 +1,220 @@
-/* Buttons and Controls */
-.control-btn {
+/* Controls */
+.controls-row {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    gap: 20px;
+}
+
+.controls-left, .controls-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 420px;
+}
+
+.controls-left {
+    justify-content: flex-start;
+}
+
+.controls-right {
+    justify-content: flex-end;
+}
+
+.button-group {
+    display: flex;
     gap: 8px;
+}
+
+/* Buttons */
+.control-btn,
+.theme-select,
+.sort-select {
+    width: 160px;
+    height: 40px;
     padding: 10px 16px;
-    background: var(--bg-card);
-    color: var(--text-primary);
-    border: 1px solid var(--border-color);
+    background: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #333333;
     border-radius: 8px;
     cursor: pointer;
     font-size: 14px;
-    font-weight: 500;
     transition: all 0.3s ease;
-    min-width: 130px;
-    justify-content: center;
     white-space: nowrap;
 }
 
+.control-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
 .control-btn:hover {
-    border-color: var(--brand-yellow);
+    border-color: #FFD700;
     transform: translateY(-2px);
 }
 
+.control-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
 /* Select Controls */
-.select-control {
-    min-width: 160px;
-    padding: 0 36px 0 16px;
-    background: var(--bg-card);
-    color: var(--text-primary);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 14px;
-    height: 40px;
+.theme-select, .sort-select {
     appearance: none;
+    padding-right: 36px;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffd700' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M6 9l6 6 6-6'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: right 8px center;
     background-size: 20px;
-    transition: all 0.3s ease;
+    color: #ffffff;
 }
 
-.select-control:hover {
-    border-color: var(--brand-yellow);
+.theme-select option, .sort-select option {
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
-/* Cards */
-.card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 24px;
-    transition: all 0.3s ease;
+/* Style for the placeholder option */
+.theme-select option[value=""], .sort-select option[value=""] {
+    color: #888888;
 }
 
-.card:hover {
-    border-color: var(--brand-yellow);
+.theme-select:hover, .sort-select:hover {
+    border-color: #FFD700;
     transform: translateY(-2px);
 }
 
-/* Labels */
-.label {
-    display: block;
-    margin-bottom: 8px;
-    color: var(--text-secondary);
-    font-size: 0.9em;
-    white-space: nowrap;
+/* Logo */
+.controls-logo {
+    height: 40px;
+    width: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
 
-/* Icons */
-.icon {
-    width: 24px;
-    height: 24px;
-    stroke: currentColor;
-    stroke-width: 2;
-    fill: none;
+.controls-logo:hover {
+    opacity: 1;
+}
+
+/* Filter Controls */
+.collection-controls {
+    margin-bottom: 8px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background: #1a1a1a;
+    border-radius: 12px;
+    border: 1px solid #333333;
+}
+
+.collection-controls.active {
+    max-height: 800px;
+    opacity: 1;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-title {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #FFD700;
+}
+
+.clear-filters-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: none;
+    border: 1px solid #333333;
+    color: #888888;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.clear-filters-btn:hover {
+    border-color: #FFD700;
+    color: #ffffff;
+}
+
+.filter-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+}
+
+.collection-controls.active .filter-section {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.filter-group {
+    min-width: 0;
+}
+
+.filter-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #888888;
+    font-size: 0.9em;
+}
+
+.filter-select {
+    width: 100%;
+    padding: 10px;
+    background: #111111;
+    border: 1px solid #333333;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.filter-select:hover {
+    border-color: #FFD700;
+}
+
+/* Size Toggle Button Icons */
+.size-toggle svg {
+    stroke: #ffffff;
+    transition: all 0.3s ease;
+}
+
+/* Highlight active icon based on gallery state */
+.nft-gallery.small-grid ~ .container .size-toggle .small-grid-icon {
+    stroke: #FFD700;
+}
+
+.nft-gallery.large-grid ~ .container .size-toggle .large-grid-icon {
+    stroke: #FFD700;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Loading States */
@@ -92,7 +232,7 @@
     width: 24px;
     height: 24px;
     margin: -12px 0 0 -12px;
-    border: 2px solid var(--brand-yellow);
+    border: 2px solid var(--theme-primary);
     border-top-color: transparent;
     border-radius: 50%;
     animation: spin 1s linear infinite;
@@ -104,39 +244,314 @@
     }
 }
 
-/* Grid Layouts */
-.grid {
-    display: grid;
-    gap: 24px;
-}
-
-.grid-2 {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-3 {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-4 {
-    grid-template-columns: repeat(4, 1fr);
-}
-
-/* Responsive Grid */
+/* Responsive */
 @media (max-width: 1200px) {
-    .grid-4 {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 900px) {
-    .grid-3, .grid-4 {
+    .filter-section {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 600px) {
-    .grid-2, .grid-3, .grid-4 {
+@media (max-width: 768px) {
+    .controls-row {
+        flex-direction: column;
+    }
+
+    .controls-left, .controls-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .filter-section {
         grid-template-columns: 1fr;
     }
+}
+
+/* Size Toggle Button Icons */
+.size-toggle svg {
+    stroke: var(--theme-text);
+    transition: var(--theme-transition);
+}
+
+/* Highlight active icon based on gallery state */
+.nft-gallery.small-grid ~ .container .size-toggle .small-grid-icon {
+    stroke: var(--theme-primary);
+}
+
+.nft-gallery.large-grid ~ .container .size-toggle .large-grid-icon {
+    stroke: var(--theme-primary);
+}
+
+.nft-gallery.full-grid ~ .container .size-toggle .full-grid-icon {
+    stroke: var(--theme-primary);
+}
+
+/* View Toggle Button Icons */
+.view-toggle.paginated .scroll-icon,
+.view-toggle.scroll .pagination-icon {
+    display: none;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    gap: 8px;
+}
+
+.button-group .control-btn {
+    min-width: 130px;
+}
+
+/* Base Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+}
+
+/* Shared Modal Content Base Styles */
+.modal-content {
+    background: #1a1a1a;
+    border-radius: 12px;
+    border: 1px solid #333333;
+    color: #ffffff;
+    position: relative;
+}
+
+/* Close Button Styles */
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    z-index: 2;
+}
+
+.modal-close:hover {
+    transform: rotate(90deg);
+}
+
+/* Info Modal Specific Styles */
+.info-modal .modal-content {
+    width: 100%;
+    max-width: 800px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: auto;
+}
+
+.info-modal .modal-header {
+    text-align: center;
+}
+
+.info-modal .modal-header img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.info-modal .modal-header h2 {
+    color: #FFD700;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.info-modal .modal-body {
+    line-height: 1.6;
+}
+
+.info-modal .modal-body h3 {
+    color: #FFD700;
+    margin: 24px 0 16px;
+    font-size: 1.2em;
+}
+
+.info-modal .modal-body ul {
+    margin: 16px 0;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.info-modal .modal-body li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 24px;
+}
+
+.info-modal .modal-body li:before {
+    content: "•";
+    color: #FFD700;
+    position: absolute;
+    left: 0;
+}
+
+.info-modal .modal-body .highlight {
+    color: #FFD700;
+    font-weight: 500;
+}
+
+/* Gallery Modal Specific Styles */
+#gallery-modal .modal-content {
+    background: #1a1a1a;
+    border-radius: 12px;
+    border: 1px solid #333333;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#gallery-modal .modal-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 32px;
+    padding: 32px;
+}
+
+#gallery-modal .modal-image {
+    width: 100%;
+    aspect-ratio: 1;
+    background: #111111;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery-modal .modal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#gallery-modal h2 {
+    color: #FFD700;
+    margin: 0 0 4px 0;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+#gallery-modal .rank {
+    color: #888888;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+#gallery-modal .trait-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+#gallery-modal .trait-item {
+    background: rgba(17, 17, 17, 0.5);
+    border-radius: 8px;
+    padding: 12px;
+}
+
+#gallery-modal .trait-type {
+    color: #888888;
+    font-size: 14px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gallery-modal .trait-percentage {
+    color: #FFD700;
+    font-size: 12px;
+}
+
+#gallery-modal .trait-value {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#gallery-modal .modal-nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+#gallery-modal .nav-button {
+    background: #1a1a1a;
+    border: 1px solid #333333;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+#gallery-modal .nav-button:hover:not(:disabled) {
+    border-color: #FFD700;
+    transform: translateY(-2px);
+}
+
+#gallery-modal .nav-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#gallery-modal .nav-button svg {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+}
+
+/* Responsive adjustments for gallery modal */
+@media (max-width: 1024px) {
+    #gallery-modal .modal-content {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    #gallery-modal .modal-body {
+        grid-template-columns: 1fr;
+        padding: 24px;
+        gap: 24px;
+    }
+
+    #gallery-modal .trait-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Ensure proper spacing between sections in info modal */
+.info-modal .collection-details,
+.info-modal .revolutionary-features {
+    margin-bottom: 24px;
 } 
